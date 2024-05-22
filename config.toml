@@ -1,4 +1,5 @@
-baseURL = "https://example.com/"
+baseURL = "https://maimai.github.io/"
+publishDir = "docs"
 title = "Hugo Theme Tailwind Example Site"
 author = "Your Name"
 copyright = "Your Name"
