@@ -1,8 +1,7 @@
 baseURL = "https://maimai.github.io/"
-publishDir = "docs"
-title = "Hugo Theme Tailwind Example Site"
-author = "Your Name"
-copyright = "Your Name"
+title = "nanashi"
+author = "Yuto Imai"
+copyright = "Yuto Imai"
 paginate = 10
 languageCode = "ja"
 theme = "tailwind"
