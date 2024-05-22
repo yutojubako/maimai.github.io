@@ -43,15 +43,15 @@ Keio University<facalty> Graduate School of Science and Technology, , Center for
 
 <!-- - <b><u>今井悠人</b></u>，“マルチモーダル基盤モデルと混合緩和損失を用いた大規模屋内検索エンジン”，AICカンファレンス，慶應義塾大学日吉キャンパス協生館AIC ラウンジ，神奈川，2024年3月7日発表済み． -->
 
-- <b><u>今井悠人</b></u>，兼田寛大，是方諒介，杉浦孔明: “マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン” ，第38回人工知能学会全国大会，アクトシティ浜松，静岡，2024年5月28日発表予定．
-- <u>是方諒介</u>，兼田寛大，長嶋隼矢，<b>今井悠人</b>，杉浦孔明:“大規模言語モデルを用いたSwitching機構付きマルチモーダル検索モデルに基づく生活支援ロボットによる物体操作”， 第38回人工知能学会全国大会，アクトシティ浜松，静岡，2024年5月28日発表予定．
+- <b><u>今井悠人</b></u>，兼田寛大，是方諒介，杉浦孔明: “マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン” ，第38回人工知能学会全国大会，2024年5月．
+- <u>是方諒介</u>，兼田寛大，長嶋隼矢，<b>今井悠人</b>，杉浦孔明:“大規模言語モデルを用いたSwitching機構付きマルチモーダル検索モデルに基づく生活支援ロボットによる物体操作”， 第38回人工知能学会全国大会，2024．
 
 ### Poster Presentations
 
 - <u>Ryosuke Korekata</u>, Kanta Kaneda, Shunya Nagashima, <b>Yuto Imai</b>, Komei Sugiura,
 Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary
 Instructions, 2024 IEEE International Conference on Robotics and Automation (Late
-Breaking Results Poster), Yokohama, Japan, 2024 年 5 月発表決定.
+Breaking Results Poster), Yokohama, Japan, May 2024.
 
 ## Relevant Experience
 
@@ -59,7 +59,7 @@ Breaking Results Poster), Yokohama, Japan, 2024 年 5 月発表決定.
   - DialFRED Challenge @ CVPR23にて優勝
 
 
-- 今井悠人, 飯岡雄偉, 杉浦孔明，第5回優秀研究・技術賞，日本ロボット学会，“マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”(第41回日本ロボット学会学術講演会)，2024年9月5日受賞予定．
+- 今井悠人, 飯岡雄偉, 杉浦孔明，第5回優秀研究・技術賞，日本ロボット学会，“マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”(第41回日本ロボット学会学術講演会)，2024年9月内定．
   - 前年度の学術講演会で行われた800件を超える研究発表の中から，有用性，独創性，新規性，完成度，講演技術を踏まえ，総合的に特に優れた1%程度が選出され授与される．
 
 ## Teaching Experience
