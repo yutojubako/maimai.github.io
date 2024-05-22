@@ -1,7 +1,8 @@
 ---
-title: "Achievements"
+title: "About Me"
 date: 2024-05-22T22:07:05+09:00
 draft: false
+tags: [cv, aboutme]
 ---
 
 <!-- <link rel="stylesheet" type="text/css" href="../main.css">
@@ -23,6 +24,10 @@ draft: false
 </div> -->
 
 <!-- </span> -->
+
+今までの活動だったり現所属に関して
+
+<!--more-->
 
 ## Education
 
