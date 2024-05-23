@@ -1,6 +1,6 @@
 # maimai.github.io
 
-URL : https://yutojubako/maimai.github.io
+URL : https://yutojubako.github.io/maimai.github.io/
 
 # Setup
 
