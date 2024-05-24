@@ -18,6 +18,10 @@ theme = "tailwind"
     since = 2023
     poweredby = true
 
+  [params.meta]
+    favicon = false
+
+
 [menu]
 
   [[menu.main]]
