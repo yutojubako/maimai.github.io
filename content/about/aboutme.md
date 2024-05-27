@@ -65,6 +65,11 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 ## Teaching Experience
 
 - Instructor for the Advanced Machine Learning Course at the Keio AI and Advanced Programming Consortium. <time> Apr 2023 - Dec 2023</time>
+  - 学部4年にて拡散モデルの理論に関する輪読・講師を担当
+
+- 横浜市立横浜サイエンスフロンティア高校「サイエンスリテラシーⅠ」講師 (2023)
+
+  - 学部4年にて授業講師を担当
 ## Stages
 
 - 劇団二進数『有象無象<sup>3</sup>』音響スタッフ [link](https://www.nishinsu.com/uzomuzo3.html)
@@ -83,8 +88,9 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 
 ## Others
 
-- [RSJ23発表資料](https://speakerdeck.com/keio_smilab/rsj23-referring-expression-segmentation-based-on-multimodal-foundation-models-and-diffusion-models)
-- [輪講：Improving Cross-Modal Retrieval with Set of Diverse Embeddings](https://speakerdeck.com/keio_smilab/journal-club-improving-cross-modal-retrieval-with-set-of-diverse-embeddings)
-- [輪講：Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation](https://speakerdeck.com/keio_smilab/journal-club-cost-aggregation-with-4d-convolutional-swin-transformer-for-few-shot-segmentation)
-- [Zenn.dev | Pytorchで書いたモデルの中間層と友達になろう](https://zenn.dev/aimairesearch/articles/df781b4b8ade4f)
+- [JSAI24発表資料](https://bit.ly/4bSkrYc)
 - [輪講：Hyperbolic Image-text Representations](https://speakerdeck.com/keio_smilab/journal-club-hyperbolic-image-text-representations)
+- [Zenn.dev | Pytorchで書いたモデルの中間層と友達になろう](https://zenn.dev/aimairesearch/articles/df781b4b8ade4f)
+- [輪講：Improving Cross-Modal Retrieval with Set of Diverse Embeddings](https://speakerdeck.com/keio_smilab/journal-club-improving-cross-modal-retrieval-with-set-of-diverse-embeddings)
+- [RSJ23発表資料](https://speakerdeck.com/keio_smilab/rsj23-referring-expression-segmentation-based-on-multimodal-foundation-models-and-diffusion-models)
+- [輪講：Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation](https://speakerdeck.com/keio_smilab/journal-club-cost-aggregation-with-4d-convolutional-swin-transformer-for-few-shot-segmentation)
