@@ -39,27 +39,27 @@ Keio University<facalty> Graduate School of Science and Technology, , Center for
 
 ### Oral Presentations
 
-- <b><u>今井悠人</b></u>, 飯岡雄偉, 畑中駿平, 九曜克之, 杉浦孔明: “マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”, 第41回日本ロボット学会学術講演会, 2K1-06, 2023.
+- **今井悠人**, 飯岡雄偉, 畑中駿平, 九曜克之, 杉浦孔明: “マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”, 第41回日本ロボット学会学術講演会, 2K1-06, 2023.
 
 <!-- - <b><u>今井悠人</b></u>，“マルチモーダル基盤モデルと混合緩和損失を用いた大規模屋内検索エンジン”，AICカンファレンス，慶應義塾大学日吉キャンパス協生館AIC ラウンジ，神奈川，2024年3月7日発表済み． -->
 
-- <b><u>今井悠人</b></u>，兼田寛大，是方諒介，杉浦孔明: “マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン” ，第38回人工知能学会全国大会，2024年5月．
-- <u>是方諒介</u>，兼田寛大，長嶋隼矢，<b>今井悠人</b>，杉浦孔明:“大規模言語モデルを用いたSwitching機構付きマルチモーダル検索モデルに基づく生活支援ロボットによる物体操作”， 第38回人工知能学会全国大会，2024．
+- **今井悠人**，兼田寛大，是方諒介，杉浦孔明: “マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン” ，第38回人工知能学会全国大会，2024年5月．
+- 是方諒介，兼田寛大，長嶋隼矢，**今井悠人**，杉浦孔明:“大規模言語モデルを用いたSwitching機構付きマルチモーダル検索モデルに基づく生活支援ロボットによる物体操作”， 第38回人工知能学会全国大会，2024．
 
 ### Poster Presentations
 
-- <u>Ryosuke Korekata</u>, Kanta Kaneda, Shunya Nagashima, <b>Yuto Imai</b>, Komei Sugiura,
+- Ryosuke Korekata, Kanta Kaneda, Shunya Nagashima, **Yuto Imai**, Komei Sugiura,
 Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary
 Instructions, 2024 IEEE International Conference on Robotics and Automation (Late
 Breaking Results Poster), Yokohama, Japan, May 2024.
 
 ## Relevant Experience
 
-- "DialMAT: Dialogue-Enabled Transformer with Moment-based Adversarial Training", Kanta Kaneda*, Ryosuke Korekata*, Yuiga Wada*, Shunya Nagashima*, <u>Motonari Kambara</u>, Yui Iioka, Haruka Matsuo, <b>Yuto Imai</b>, Takayuki Nishimura and Komei Sugiura
+- "DialMAT: Dialogue-Enabled Transformer with Moment-based Adversarial Training", Kanta Kaneda*, Ryosuke Korekata*, Yuiga Wada*, Shunya Nagashima*, Motonari Kambara, Yui Iioka, Haruka Matsuo, **Yuto Imai**, Takayuki Nishimura and Komei Sugiura
   - DialFRED Challenge @ CVPR23にて優勝
 
 
-- 今井悠人, 飯岡雄偉, 杉浦孔明，第5回優秀研究・技術賞，日本ロボット学会，“マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”(第41回日本ロボット学会学術講演会)，2024年9月内定．
+- **今井悠人**, 飯岡雄偉, 杉浦孔明，第5回優秀研究・技術賞，日本ロボット学会，“マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”(第41回日本ロボット学会学術講演会)，2024年9月内定．
   - 前年度の学術講演会で行われた800件を超える研究発表の中から，有用性，独創性，新規性，完成度，講演技術を踏まえ，総合的に特に優れた1%程度が選出され授与される．
 
 ## Teaching Experience
@@ -72,7 +72,8 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
   - 学部4年にて授業講師を担当
 ## Stages
 
-- 劇団二進数『有象無象<sup>3</sup>』音響スタッフ [link](https://www.nishinsu.com/uzomuzo3.html)
+- 劇団二進数 第7回公演 佐藤佐吉演劇祭2024参加作品『死して尚、生きてナオ』[link](https://www.nishinsu.com/shishitenao.html)
+- 劇団二進数 第6回公演『有象無象<sup>3</sup>』音響スタッフ [link](https://www.nishinsu.com/uzomuzo3.html)
 - 劇団二進数『脇役人生の転機』音響スタッフ 第8回全国学生演劇祭にて観客賞・審査員奨励賞を受賞
 - 創像工房in front of.　3月本公演『大海を知るかもめ』音響チーフ [X(twitter)](https://twitter.com/sozo_kamome)
 
