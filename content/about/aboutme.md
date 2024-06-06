@@ -95,3 +95,6 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 - [輪講：Improving Cross-Modal Retrieval with Set of Diverse Embeddings](https://speakerdeck.com/keio_smilab/journal-club-improving-cross-modal-retrieval-with-set-of-diverse-embeddings)
 - [RSJ23発表資料](https://speakerdeck.com/keio_smilab/rsj23-referring-expression-segmentation-based-on-multimodal-foundation-models-and-diffusion-models)
 - [輪講：Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation](https://speakerdeck.com/keio_smilab/journal-club-cost-aggregation-with-4d-convolutional-swin-transformer-for-few-shot-segmentation)
+
+# Github Summary
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yutojubako&theme=algolia)
