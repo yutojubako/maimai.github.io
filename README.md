@@ -14,3 +14,5 @@ URL : https://yutojubako.github.io/maimai.github.io/
 git clone git@github.com:yutojubako/maimai.github.io.git && cd maimai.github.io
 hugo server -D
 ```
+
+4. tagを追加する場合は、array形式で追記する
