@@ -59,8 +59,10 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
   - DialFRED Challenge @ CVPR23にて優勝
 
 
-- **今井悠人**, 飯岡雄偉, 杉浦孔明，第5回優秀研究・技術賞，日本ロボット学会，“マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”(第41回日本ロボット学会学術講演会)，2024年9月内定．
+- **今井悠人**, 飯岡雄偉, 杉浦孔明，第5回優秀研究・技術賞，日本ロボット学会，“マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”，2024年9月5日．
   - 前年度の学術講演会で行われた800件を超える研究発表の中から，有用性，独創性，新規性，完成度，講演技術を踏まえ，総合的に特に優れた1%程度が選出され授与される．
+
+- **今井悠人**，兼田寛大，是方諒介，2024年度人工知能学会全国大会優秀賞， “マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン” ，2024年11月内定．
 
 ## Teaching Experience
 
@@ -79,7 +81,10 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 
 ## Other Experience
 
-### Internship
+### Employments
+
+- SB Intuitions Corp.
+  - Internship <time> Aug 2024 - Sep 2024</time>
 
 - pluszero Inc.
   - Machine Learning Engineer Internship <time> Apr 2023- Mar 2024</time>
