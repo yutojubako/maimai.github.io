@@ -35,7 +35,7 @@ Keio University <facalty>Department of Information and Computer Science </facalt
 
 Keio University<facalty> Graduate School of Science and Technology, , Center for Information and Conputer Science,</facalty><location>Hiyoshi, Yokohama City, Japan</location><time>Apr 2024 - Present</time>
 
-## Presentations
+## Publications
 
 ### Oral Presentations
 
@@ -46,12 +46,18 @@ Keio University<facalty> Graduate School of Science and Technology, , Center for
 - **今井悠人**，兼田寛大，是方諒介，杉浦孔明: “マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン” ，第38回人工知能学会全国大会，2024年5月．
 - 是方諒介，兼田寛大，長嶋隼矢，**今井悠人**，杉浦孔明:“大規模言語モデルを用いたSwitching機構付きマルチモーダル検索モデルに基づく生活支援ロボットによる物体操作”， 第38回人工知能学会全国大会，2024．
 
+- **今井悠人**，是方諒介，杉浦孔明: “Dense textを用いたマルチモーダルLLMに基づく大規模屋内環境における物体検索” ，第42回日本ロボット学会学術講演会，2024
+
 ### Poster Presentations
 
 - Ryosuke Korekata, Kanta Kaneda, Shunya Nagashima, **Yuto Imai**, Komei Sugiura,
 Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary
 Instructions, 2024 IEEE International Conference on Robotics and Automation (Late
 Breaking Results Poster), Yokohama, Japan, May 2024.
+
+### Under review
+
+- R. Korekata, K. Kaneda, S. Nagashima, **Y. Imai**, K. Sugiura, "DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions," arXiv preprint arXiv:2408.07910, 2024,
 
 ## Relevant Experience
 
@@ -81,6 +87,12 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 
 ## Other Experience
 
+### Scholarships
+
+Keio University Gakumon Scholarship, **JPY 300000**, 2021-2024
+- Keio University Gakumon Scholarship, **JPY 600000**, 2020
+- Keio University Iji-kai Scholarship, **JPY800000**, 2020 
+
 ### Employments
 
 - SB Intuitions Corp.
@@ -94,12 +106,14 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 
 ## Others
 
+- [RSJ24発表資料](https://speakerdeck.com/keio_smilab/rsj24-object-retrieval-in-large-scale-indoor-environments-using-dense-text-with-a-multi-modal-large-language-model)
 - [JSAI24発表資料](https://bit.ly/4bSkrYc)
 - [輪講：Hyperbolic Image-text Representations](https://speakerdeck.com/keio_smilab/journal-club-hyperbolic-image-text-representations)
 - [Zenn.dev | Pytorchで書いたモデルの中間層と友達になろう](https://zenn.dev/aimairesearch/articles/df781b4b8ade4f)
 - [輪講：Improving Cross-Modal Retrieval with Set of Diverse Embeddings](https://speakerdeck.com/keio_smilab/journal-club-improving-cross-modal-retrieval-with-set-of-diverse-embeddings)
 - [RSJ23発表資料](https://speakerdeck.com/keio_smilab/rsj23-referring-expression-segmentation-based-on-multimodal-foundation-models-and-diffusion-models)
 - [輪講：Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation](https://speakerdeck.com/keio_smilab/journal-club-cost-aggregation-with-4d-convolutional-swin-transformer-for-few-shot-segmentation)
+- 『ゼロから作るDeep Learning⑤ -生成モデル編』公開レビュー、2024年4月
 
 # Github Summary
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yutojubako&theme=algolia)
