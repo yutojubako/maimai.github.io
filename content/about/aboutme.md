@@ -89,8 +89,8 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 
 ### Scholarships
 
-Keio University Gakumon Scholarship, **JPY 300000**, 2021-2024
-- Keio University Gakumon Scholarship, **JPY 600000**, 2020
+Keio University An Encouragement of Learning Scholarship, **JPY 300000**, 2021-2024
+- Keio University An Encouragement of Learning Scholarship, **JPY 600000**, 2020
 - Keio University Iji-kai Scholarship, **JPY800000**, 2020 
 
 ### Employments
