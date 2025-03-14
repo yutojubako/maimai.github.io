@@ -21,7 +21,6 @@ theme = "tailwind"
   [params.meta]
     favicon = false
 
-
 [menu]
 
   [[menu.main]]
@@ -40,3 +39,8 @@ theme = "tailwind"
 category = "categories"
 tag = "tags"
 series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
