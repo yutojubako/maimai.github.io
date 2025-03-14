@@ -106,15 +106,38 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 
 ## Others
 
+### Misc
+
 - [SB Intuitions Tech Blog: 多肢選択形式のベンチマーク](https://www.sbintuitions.co.jp/blog/entry/2024/10/18/090000)
-- [RSJ24発表資料](https://speakerdeck.com/keio_smilab/rsj24-object-retrieval-in-large-scale-indoor-environments-using-dense-text-with-a-multi-modal-large-language-model)
-- [JSAI24発表資料](https://bit.ly/4bSkrYc)
-- [輪講：Hyperbolic Image-text Representations](https://speakerdeck.com/keio_smilab/journal-club-hyperbolic-image-text-representations)
 - [Zenn.dev | Pytorchで書いたモデルの中間層と友達になろう](https://zenn.dev/aimairesearch/articles/df781b4b8ade4f)
-- [輪講：Improving Cross-Modal Retrieval with Set of Diverse Embeddings](https://speakerdeck.com/keio_smilab/journal-club-improving-cross-modal-retrieval-with-set-of-diverse-embeddings)
-- [RSJ23発表資料](https://speakerdeck.com/keio_smilab/rsj23-referring-expression-segmentation-based-on-multimodal-foundation-models-and-diffusion-models)
-- [輪講：Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation](https://speakerdeck.com/keio_smilab/journal-club-cost-aggregation-with-4d-convolutional-swin-transformer-for-few-shot-segmentation)
 - 『ゼロから作るDeep Learning⑤ -生成モデル編』公開レビュー、2024年4月
+
+### Presentation Resources
+
+- [RSJ24発表資料](https://speakerdeck.com/keio_smilab/rsj24-object-retrieval-in-large-scale-indoor-environments-using-dense-text-with-a-multi-modal-large-language-model)
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/1c25ec1ec6aa445d8308a2eeebc4ee2a?slide=1" title="[RSJ24] Object Retrieval in Large-Scale Indoor Environments Using Dense Text with a Multi-Modal Large Language Model" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+- [JSAI24発表資料](https://bit.ly/4bSkrYc)
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/fca0a12d5ca147d3884a7ce8a00f8794?slide=1" title="[JSAI24] Large-Scale Indoor Search Engine with Multimodal Foundation Models and Relaxing Contrastive Loss" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+- [輪講：Hyperbolic Image-text Representations](https://speakerdeck.com/keio_smilab/journal-club-hyperbolic-image-text-representations)
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/ae2f1f95e32741d594ff47572e53b5be?slide=1" title="[Journal Club] Hyperbolic Image-Text Representations" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+- [輪講：Improving Cross-Modal Retrieval with Set of Diverse Embeddings](https://speakerdeck.com/keio_smilab/journal-club-improving-cross-modal-retrieval-with-set-of-diverse-embeddings)
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/986a348ab30f474abafd22fb76d72828?slide=1" title="[Journal Club] Improving Cross-Modal Retrieval with Set of Diverse Embeddings " allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+- [RSJ23発表資料](https://speakerdeck.com/keio_smilab/rsj23-referring-expression-segmentation-based-on-multimodal-foundation-models-and-diffusion-models)
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/a167354bf66d4cbc9ba5081f95ccaf74?slide=1" title="[RSJ23] Referring Expression Segmentation Based on Multimodal Foundation Models and Diffusion Models" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+- [輪講：Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation](https://speakerdeck.com/keio_smilab/journal-club-cost-aggregation-with-4d-convolutional-swin-transformer-for-few-shot-segmentation)
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/99ab45d3a17f4a9f849ef59c56ba60d3?slide=1" title="[Journal Club] Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
 
 # Github Summary
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yutojubako&theme=algolia)

@@ -29,6 +29,7 @@ https://downforeveryoneorjustme.com/
 3. python環境(pip install slack-sdk)が必要
 
 ### OAuth token
+
 https://api.slack.com/apps
 
 ここにアクセスし，access tokenを発行する．
@@ -39,7 +40,7 @@ create new appからFrom scratchを選択，app名と入れたいworkspaceを指
 
 次に，OAuth & Permissionsを選択し，User tokenスコープにchat:writeを入れて，User OAuth Tokenをメモっておく（Bot User OAuth TokenはSlackbotの作成時に必要，今回はpythonで実行するため不要）
 
-![[OAuth&Permissions]](/images/oauth_and_permissions.png)
+![OAuth&Permissions](/images/oauth_and_permissions.png)
 
 ### User id
 
