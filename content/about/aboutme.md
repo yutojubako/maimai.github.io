@@ -37,6 +37,10 @@ Keio University<facalty> Graduate School of Science and Technology, , Center for
 
 ## Publications
 
+### Journal Articles
+
+R. Korekata, K. Kaneda, S. Nagashima, **Y. Imai**, and K. Sugiura, “DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions”, Advanced Robotics, 2025, to appear.
+
 ### Oral Presentations
 
 - **今井悠人**, 飯岡雄偉, 畑中駿平, 九曜克之, 杉浦孔明: “マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”, 第41回日本ロボット学会学術講演会, 2K1-06, 2023.
@@ -55,10 +59,6 @@ Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary
 Instructions, 2024 IEEE International Conference on Robotics and Automation (Late
 Breaking Results Poster), Yokohama, Japan, May 2024.
 
-### Under review
-
-- R. Korekata, K. Kaneda, S. Nagashima, **Y. Imai**, K. Sugiura, "DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions," arXiv preprint arXiv:2408.07910, 2024,
-
 ## Relevant Experience
 
 - "DialMAT: Dialogue-Enabled Transformer with Moment-based Adversarial Training", Kanta Kaneda*, Ryosuke Korekata*, Yuiga Wada*, Shunya Nagashima*, Motonari Kambara, Yui Iioka, Haruka Matsuo, **Yuto Imai**, Takayuki Nishimura and Komei Sugiura
@@ -68,7 +68,7 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 - **今井悠人**, 飯岡雄偉, 杉浦孔明，第5回優秀研究・技術賞，日本ロボット学会，“マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”，2024年9月5日．
   - 前年度の学術講演会で行われた800件を超える研究発表の中から，有用性，独創性，新規性，完成度，講演技術を踏まえ，総合的に特に優れた1%程度が選出され授与される．
 
-- **今井悠人**，兼田寛大，是方諒介，2024年度人工知能学会全国大会優秀賞， “マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン” ，2024年11月内定．
+- **今井悠人**，兼田寛大，是方諒介，2024年度人工知能学会全国大会優秀賞， “マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン” ，2024年11月1日
 
 ## Teaching Experience
 
