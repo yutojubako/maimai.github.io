@@ -35,15 +35,15 @@ https://api.slack.com/apps
 
 create new appからFrom scratchを選択，app名と入れたいworkspaceを指定してappを作成
 
-![yourapps.png](/images/yourapps.png)
+![yourapps.png](../../static/images/yourapps.png)
 
 次に，OAuth & Permissionsを選択し，User tokenスコープにchat:writeを入れて，User OAuth Tokenをメモっておく（Bot User OAuth TokenはSlackbotの作成時に必要，今回はpythonで実行するため不要）
 
-![[OAuth&Permissions]](/images/oauth_and_permissions.png)
+![[OAuth&Permissions]](../../static/images/oauth_and_permissions.png)
 
 ### User id
 
-![memberid](/images/member_id.png)
+![memberid](../../static/images/member_id.png)
 
 この表示の3点メニューからメンバーIDをコピー可能，メンションなどを作成する際にもユーザ指定のために必要となる（今回は自分のdmの為，自分のIDを把握するのみでOK）
 
@@ -118,6 +118,7 @@ if __name__ == "__main__":
     main(args)
 ```
 user idとuser tokenを引数で指定してあげる，こうすると，以下のような通知が来るはず
-<@yuto imai nlp.stanford.edu is back online!の画像を入れる>
+
+@yuto imai nlp.stanford.edu is back online!の画像を入れる
 
 なお，実行させておきたいときずっと走らせなきゃなので，プロセス圧迫に注意
