@@ -39,7 +39,7 @@ Keio University<facalty> Graduate School of Science and Technology, , Center for
 
 ### Journal Articles
 
-R. Korekata, K. Kaneda, S. Nagashima, **Y. Imai**, and K. Sugiura, “DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions”, Advanced Robotics, 2025, to appear.
+- R. Korekata, K. Kaneda, S. Nagashima, **Y. Imai**, and K. Sugiura, “DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions”, Advanced Robotics, 2025, to appear.
 
 ### Oral Presentations
 
