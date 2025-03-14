@@ -96,16 +96,17 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 ### Employments
 
 - SB Intuitions Corp.
-  - Internship <time> Aug 2024 - Sep 2024</time>
+  - Internship <time> Aug 2024 - Present</time>
 
 - pluszero Inc.
   - Machine Learning Engineer Internship <time> Apr 2023- Mar 2024</time>
 
 - Elith Inc.
-  - Machine Learning Engineer Internship <time> Dec 2023 - Present</time>
+  - Machine Learning Engineer Internship <time> Dec 2023 - Mar 2024</time>
 
 ## Others
 
+- [SB Intuitions Tech Blog: 多肢選択形式のベンチマーク](https://www.sbintuitions.co.jp/blog/entry/2024/10/18/090000)
 - [RSJ24発表資料](https://speakerdeck.com/keio_smilab/rsj24-object-retrieval-in-large-scale-indoor-environments-using-dense-text-with-a-multi-modal-large-language-model)
 - [JSAI24発表資料](https://bit.ly/4bSkrYc)
 - [輪講：Hyperbolic Image-text Representations](https://speakerdeck.com/keio_smilab/journal-club-hyperbolic-image-text-representations)
