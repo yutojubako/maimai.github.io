@@ -39,9 +39,11 @@ Keio University<facalty> Graduate School of Science and Technology, , Center for
 
 ### Journal Articles
 
-- R. Korekata, K. Kaneda, S. Nagashima, **Y. Imai**, and K. Sugiura, “DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions”, Advanced Robotics, 2025, to appear.
+- R. Korekata, K. Kaneda, S. Nagashima, **Y. Imai**, and K. Sugiura, “DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions”, Advanced Robotics, 2025, Vol. 39, Issue 5, pp. 243-258, 2025.
 
 ### Oral Presentations
+
+- 戸倉健登, 是方諒介, 小松拓実, **今井悠人**, 杉浦孔明: “Crosslingual Visual Promptに基づくテキスト付き画像からの日常物体検索”, 2025年度 人工知能学会全国大会, 1Win4-52, 2025.
 
 - **今井悠人**, 飯岡雄偉, 畑中駿平, 九曜克之, 杉浦孔明: “マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション”, 第41回日本ロボット学会学術講演会, 2K1-06, 2023.
 
