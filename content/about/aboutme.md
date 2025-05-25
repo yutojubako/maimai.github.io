@@ -108,6 +108,8 @@ Breaking Results Poster), Yokohama, Japan, May 2024.
 
 ### Misc
 
+- [SB Intuitions Tech Blog: Sarashina2-Vision-8B, 14Bの性能評価](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111703)
+- [SB Intuitions Tech Blog: Sarashina2-Vision: 日本語特化の大規模視覚言語モデルの公開](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111659)
 - [SB Intuitions Tech Blog: 多肢選択形式のベンチマーク](https://www.sbintuitions.co.jp/blog/entry/2024/10/18/090000)
 - [Zenn.dev | Pytorchで書いたモデルの中間層と友達になろう](https://zenn.dev/aimairesearch/articles/df781b4b8ade4f)
 - 『ゼロから作るDeep Learning⑤ -生成モデル編』公開レビュー、2024年4月
