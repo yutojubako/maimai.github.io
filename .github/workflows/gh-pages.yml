@@ -25,10 +25,6 @@ jobs:
         with:
           ruby-version: '3.1'
           bundler-cache: true
-      - name: Configure Bundler
-        run: |
-          bundle config set --local deployment 'true'
-          bundle config set --local path 'vendor/bundle'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
