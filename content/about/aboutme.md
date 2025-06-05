@@ -3,6 +3,8 @@ title: "About Me"
 date: 2024-05-22T22:07:05+09:00
 draft: false
 tags: [cv, aboutme]
+layout: about
+subtitle: 私の経歴
 ---
 
 <!-- <link rel="stylesheet" type="text/css" href="../main.css">
