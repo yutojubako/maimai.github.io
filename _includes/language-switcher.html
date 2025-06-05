@@ -1,0 +1,215 @@
+<!-- Language Switcher -->
+<div class="language-switcher">
+  <button id="lang-toggle" class="lang-button" onclick="toggleLanguage()">
+    <span id="current-lang-flag">🇺🇸</span>
+    <span id="current-lang-code">EN</span>
+    <span class="lang-arrow">⇄</span>
+  </button>
+</div>
+
+<style>
+.language-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.lang-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #e1e5e9;
+  border-radius: 20px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: #24292f;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#current-lang-flag {
+  font-size: 14px;
+}
+
+#current-lang-code {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.lang-arrow {
+  font-size: 10px;
+  opacity: 0.6;
+  margin-left: 2px;
+}
+
+.lang-button:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: #0969da;
+  color: #0969da;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(9, 105, 218, 0.15);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .lang-button {
+    background: rgba(13, 17, 23, 0.95);
+    border-color: #30363d;
+    color: #f0f6fc;
+  }
+  
+  .lang-button:hover {
+    background: rgba(13, 17, 23, 1);
+    border-color: #58a6ff;
+    color: #58a6ff;
+    box-shadow: 0 4px 12px rgba(88, 166, 255, 0.15);
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .language-switcher {
+    top: 15px;
+    right: 15px;
+  }
+  
+  .lang-button {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+  
+  #current-lang-flag {
+    font-size: 12px;
+  }
+  
+  #current-lang-code {
+    font-size: 10px;
+  }
+}
+
+/* Animation for language change */
+.lang-change-animation {
+  animation: langChange 0.3s ease-in-out;
+}
+
+@keyframes langChange {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+  100% { opacity: 1; transform: scale(1); }
+}
+</style>
+
+<script>
+// Language switching functionality
+let currentLang = localStorage.getItem('site-language') || 'en';
+
+// Initialize language on page load
+document.addEventListener('DOMContentLoaded', function() {
+  initializeLanguage();
+});
+
+function initializeLanguage() {
+  updateLanguageDisplay();
+  applyLanguage(currentLang);
+}
+
+function updateLanguageDisplay() {
+  // Update current language indicator
+  const currentFlag = document.getElementById('current-lang-flag');
+  const currentCode = document.getElementById('current-lang-code');
+  
+  if (currentFlag && currentCode) {
+    if (currentLang === 'en') {
+      currentFlag.textContent = '🇺🇸';
+      currentCode.textContent = 'EN';
+    } else {
+      currentFlag.textContent = '🇯🇵';
+      currentCode.textContent = 'JA';
+    }
+  }
+}
+
+function toggleLanguage() {
+  currentLang = currentLang === 'en' ? 'ja' : 'en';
+  localStorage.setItem('site-language', currentLang);
+  
+  // Add animation class
+  const button = document.getElementById('lang-toggle');
+  if (button) {
+    button.classList.add('lang-change-animation');
+    setTimeout(() => {
+      button.classList.remove('lang-change-animation');
+    }, 300);
+  }
+  
+  updateLanguageDisplay();
+  applyLanguage(currentLang);
+}
+
+function applyLanguage(lang) {
+  // Apply language to elements with data-lang attributes
+  const elements = document.querySelectorAll('[data-en][data-ja]');
+  elements.forEach(el => {
+    const text = el.getAttribute('data-' + lang);
+    if (text) {
+      el.textContent = text;
+    }
+  });
+  
+  // Apply language to HTML content elements
+  const htmlElements = document.querySelectorAll('[data-html-en][data-html-ja]');
+  htmlElements.forEach(el => {
+    const html = el.getAttribute('data-html-' + lang);
+    if (html) {
+      el.innerHTML = html;
+    }
+  });
+  
+  // Update page title
+  const titleElement = document.querySelector('title');
+  if (titleElement) {
+    const siteTitle = lang === 'en' ? 'Yuto Imai' : '今井悠人';
+    const pageTitle = titleElement.textContent.split(' | ')[0];
+    titleElement.textContent = pageTitle + ' | ' + siteTitle;
+  }
+  
+  // Update meta description
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) {
+    const description = lang === 'en' 
+      ? 'Multimodal AI Researcher & Machine Learning Engineer at Keio University'
+      : 'マルチモーダルAI研究者・機械学習エンジニア｜慶應義塾大学';
+    metaDesc.setAttribute('content', description);
+  }
+}
+
+// Utility function to get translated text
+function t(key) {
+  const strings = {
+    en: {
+      'read_more': 'Read more →',
+      'view_all': 'View all →',
+      'email': 'Email',
+      'github': 'GitHub',
+      'last_updated': 'Last updated',
+      'tags': 'Tags'
+    },
+    ja: {
+      'read_more': '続きを読む →',
+      'view_all': 'すべて見る →', 
+      'email': 'メール',
+      'github': 'GitHub',
+      'last_updated': '最終更新',
+      'tags': 'タグ'
+    }
+  };
+  
+  return strings[currentLang] && strings[currentLang][key] ? strings[currentLang][key] : key;
+}
+</script>
