@@ -1,8 +1,9 @@
 ---
+layout: post
 title: "PytorchのMultiHeadAttentionの次元に注意"
-date: 2024-06-06T11:02:55+09:00
+date: 2024-06-06 11:02:55 +0900
+published: true
 tags: [pytorch, attention, ML, leakage]
-draft: false
 ---
 
 <!--more-->
@@ -18,10 +19,6 @@ draft: false
 - attentionを組み込んだ際のみにこの現象が確認されたので，attention部分の自分の実装に問題がある
 
 ## 問題点
-
-pytorchのデフォルトの`MultiheadAttention`では，入力として`[L, N, D]`形式のテンソルが想定されている
-
-引数`batch_first`をつけないと，系列長部分をbatchとして解釈してしまうため，バッチ内のleakageが発生する．(内部計算で系列長方向に参照しまくるため，バッチ内の他データを参照してしまう)
 
 ### 参考文献
 
