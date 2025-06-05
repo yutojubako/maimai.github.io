@@ -1,19 +1,40 @@
-# Jekyll configuration for al-folio
+# Jekyll configuration
 
 url: "https://yutojubako.github.io"
 baseurl: "/maimai.github.io"
 
-remote_theme: alshedivat/al-folio
+theme: minima
 
-title: "純米吟醸と和解せよ"
+title: "Yuto Imai"
 author: "Yuto Imai"
 email: "ytim8812@keio.jp"
-description: "Machine learning and robotics notes"
+description: "Multimodal AI Researcher & Machine Learning Engineer at Keio University"
 max_width: 930px
+
+# Navigation menu
+header_pages:
+  - about.md
+  - resume.md
+  - projects.md
+  - blog.md
+
+# Social links (for minima theme)
+github_username: yutojubako
+twitter_username: # Add if you have one
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
-  - jekyll-toc
-  - jekyll-scholar
+
+# Minima theme settings
+minima:
+  skin: auto
+  social_links:
+    github: yutojubako
+    # Add other social platforms as needed
+
+# Additional site information
+location: "Yokohama, Japan"
+institution: "Keio University"
+lab: "SMI Lab"
+research_focus: "Multimodal AI, Computer Vision, Cross-Modal Retrieval"
