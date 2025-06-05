@@ -1,7 +1,8 @@
 title = "純米吟醸と和解せよ"
 author = "Yuto Imai"
 copyright = "Yuto Imai"
-paginate = 10
+[pagination]
+  pagerSize = 10
 languageCode = "ja"
 theme = "tailwind"
 
