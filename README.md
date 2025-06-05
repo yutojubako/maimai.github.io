@@ -52,7 +52,7 @@ maimai.github.io/
 │   └── posts/        # ブログ記事
 ├── layouts/          # レイアウトのカスタマイズ
 ├── public/           # ビルド後の静的ファイル
-├── resources/        # キャッシュされたリソース
+├── resources/        # キャッシュされたリソース（ビルド時に自動生成）
 ├── static/           # 静的ファイル（画像など）
 └── themes/           # テーマファイル
 ```
@@ -107,6 +107,8 @@ hugo -D --environment production
 ```
 
 ビルドされたファイルは `public/` ディレクトリに出力されます。
+`resources/` ディレクトリも `hugo` 実行時に自動生成されます。削除した場合は再度
+`hugo` を実行してください。
 
 ### GitHub Pagesへのデプロイ
 
