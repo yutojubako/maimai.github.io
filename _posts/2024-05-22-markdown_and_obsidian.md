@@ -1,8 +1,9 @@
 ---
+layout: post
 title: "Markdownに慣れようという話"
-date: 2024-05-22T22:00:00+09:00
+date: 2024-05-22 22:00:00 +0900
+published: true
 tags: [markdown, obsidian, misc]
-draft: false
 ---
 # 背景
 以前はScrapboxを使用していたが，他デバイス(主にiOS)からの「手書き」記入ができることが望ましかったため，Obsidianへの移行に傾いている
