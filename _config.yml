@@ -9,8 +9,11 @@ title: "純米吟醸と和解せよ"
 author: "Yuto Imai"
 email: "ytim8812@keio.jp"
 description: "Machine learning and robotics notes"
+max_width: 930px
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
+  - jekyll-toc
+  - jekyll-scholar
