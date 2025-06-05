@@ -1,6 +1,8 @@
 # maimai.github.io
 
-個人ブログサイト「純米吟醸と和解せよ」のリポジトリです。
+[![Deploy Jekyll site to Pages](https://github.com/yutojubako/maimai.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/yutojubako/maimai.github.io/actions/workflows/gh-pages.yml)
+
+個人ブログサイトのリポジトリです。
 
 URL: <https://yutojubako.github.io/maimai.github.io/>
 
