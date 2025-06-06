@@ -33,6 +33,9 @@ minima:
     github: yutojubako
     # Add other social platforms as needed
 
+# Site icon
+icon: "/static/images/image.png"
+
 # Additional site information
 location: "Yokohama, Japan"
 institution: "Keio University"

@@ -4,6 +4,9 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      {%- if site.icon -%}
+        <img src="{{ site.icon | relative_url }}" alt="{{ site.title }}" class="site-icon" style="height: 32px; width: 32px; margin-right: 8px; vertical-align: middle; border-radius: 50%; object-fit: cover;">
+      {%- endif -%}
       <span data-en="{{ site.title | escape }}" data-ja="今井悠人">{{ site.title | escape }}</span>
     </a>
 
