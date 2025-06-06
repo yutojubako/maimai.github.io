@@ -144,7 +144,7 @@
         }
 
         // Event listeners
-        window.addEventListener('scroll', toggleScrollToTopButton);
+        window.addEventListener('scroll', toggleScrollToTopButton, { passive: true });
         scrollToTopBtn.addEventListener('click', scrollToTop);
         
         // Keyboard accessibility
