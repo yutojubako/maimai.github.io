@@ -16,38 +16,25 @@ Showcasing my work in Vision and Language.
 **Duration**: 2025  
 
 ### Large-Scale Indoor Object Search Engine
-**Technologies**: PyTorch, Multimodal LLMs, Dense Text Processing  
-**Duration**: 2024  
 **Conference**: RSJ 2024, JSAI 2024
 
-Developed a comprehensive object retrieval system for large-scale indoor environments using dense text descriptions and multimodal foundation models.
+- **JSAI 2024 Excellence Award** (Top 3% of 900+ presentations)
 
-- **Key Innovations**:
-  - Novel relaxed contrastive loss for improved cross-modal alignment
-  - Integration of dense text processing with vision-language models
+**RSJ24 Presentation:**
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/1c25ec1ec6aa445d8308a2eeebc4ee2a" title="[RSJ24] Object Retrieval in Large-Scale Indoor Environments Using Dense Text with a Multi-Modal Large Language Model" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
-- **Results**: 
-  - **JSAI 2024 Excellence Award** (Top 3% of 900+ presentations)
-  - Improved retrieval accuracy by 25% over baseline methods
-- **Resources**: [RSJ24 Slides](https://speakerdeck.com/keio_smilab/rsj24-object-retrieval-in-large-scale-indoor-environments-using-dense-text-with-a-multi-modal-large-language-model) | [JSAI24 Slides](https://bit.ly/4bSkrYc)
+**JSAI24 Presentation:**
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/fca0a12d5ca147d3884a7ce8a00f8794" title="[JSAI24] Large-Scale Indoor Search Engine with Multimodal Foundation Models and Relaxing Contrastive Loss" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
 ---
 
 ### Referring Expression Segmentation with Diffusion Models
-**Technologies**: PyTorch, Diffusion Models, Computer Vision, NLP 
-**Duration**: 2023  
 **Conference**: RSJ 2023
 
-Pioneered the use of multimodal foundation models combined with diffusion models for precise object segmentation based on natural language descriptions.
+- **RSJ 2023 Excellence Award** (Top 1% of 800+ presentations)
 
-- **Technical Contributions**:
-  - First integration of diffusion models in referring expression segmentation
-  - Novel multimodal attention mechanism for text-guided segmentation
-  - Real-time inference optimization for robotic applications
-
-- **Recognition**: 
-  - **RSJ Excellence Award** (Top 1% of 800+ presentations)
-- **Resources**: [RSJ23 Slides](https://speakerdeck.com/keio_smilab/rsj23-referring-expression-segmentation-based-on-multimodal-foundation-models-and-diffusion-models)
+**RSJ23 Presentation:**
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/a167354bf66d4cbc9ba5081f95ccaf74" title="[RSJ23] Referring Expression Segmentation Based on Multimodal Foundation Models and Diffusion Models" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
 ---
 
@@ -81,15 +68,7 @@ Latest research on cross-lingual visual prompting for searching daily objects in
 ## 🏆 Competition Projects
 
 ### DialFRED Challenge Winner @ CVPR 2023
-**Technologies**: Transformer, Adversarial Training, Dialog Systems  
-**Achievement**: 1st Place  
-**Team**: Collaborative project with 8 researchers
-
-Developed "DialMAT: Dialogue-Enabled Transformer with Moment-based Adversarial Training" for embodied AI dialog tasks.
-
-- **Highlights**:
-  - Novel moment-based adversarial training approach
-  - Winner of international competition at top-tier venue
+- **1st Place Winner** at international competition at top-tier venue
 
 ---
 
@@ -123,19 +102,18 @@ Developed and deployed machine learning solutions for real-world applications ac
 
 ---
 
-## 📚 Research Resources & Presentations
-
-### Technical Presentations on SpeakerDeck
-
-- **[RSJ24: Object Retrieval in Large-Scale Indoor Environments](https://speakerdeck.com/keio_smilab/rsj24-object-retrieval-in-large-scale-indoor-environments-using-dense-text-with-a-multi-modal-large-language-model)**
-- **[JSAI24: Large-Scale Indoor Search Engine](https://bit.ly/4bSkrYc)**
-- **[RSJ23: Referring Expression Segmentation](https://speakerdeck.com/keio_smilab/rsj23-referring-expression-segmentation-based-on-multimodal-foundation-models-and-diffusion-models)**
+## 📚 Conference Presentations & Research Resources
 
 ### Journal Club Presentations
 
-- **[Hyperbolic Image-Text Representations](https://speakerdeck.com/keio_smilab/journal-club-hyperbolic-image-text-representations)**
-- **[Improving Cross-Modal Retrieval with Diverse Embeddings](https://speakerdeck.com/keio_smilab/journal-club-improving-cross-modal-retrieval-with-set-of-diverse-embeddings)**
-- **[Cost Aggregation with 4D Convolutional Swin Transformer](https://speakerdeck.com/keio_smilab/journal-club-cost-aggregation-with-4d-convolutional-swin-transformer-for-few-shot-segmentation)**
+**Hyperbolic Image-Text Representations**
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/ae2f1f95e32741d594ff47572e53b5be" title="[Journal Club] Hyperbolic Image-Text Representations" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+**Improving Cross-Modal Retrieval with Diverse Embeddings**
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/986a348ab30f474abafd22fb76d72828" title="[Journal Club] Improving Cross-Modal Retrieval with Set of Diverse Embeddings" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+**Cost Aggregation with 4D Convolutional Swin Transformer**
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/99ab45d3a17f4a9f849ef59c56ba60d3" title="[Journal Club] Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
 ### Technical Writing
 
