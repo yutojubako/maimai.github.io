@@ -7,9 +7,6 @@
 
     {%- include header.html -%}
 
-    <!-- Language Switcher -->
-    {%- include language-switcher.html -%}
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
@@ -17,6 +14,9 @@
     </main>
 
     {%- include footer.html -%}
+
+    <!-- Theme and Language Switcher Script -->
+    <script src="{{ '/static/js/theme-language-switcher.js' | relative_url }}"></script>
 
   </body>
 

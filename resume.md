@@ -156,8 +156,8 @@ Hiyoshi, Yokohama City, Japan
 
 ## Languages
 
-- **Japanese** - Native
-- **English** - TOEIC 750
+**Japanese** - Native  
+**English** - TOEIC 750 (Business level reading/writing, conversational speaking)
 
 ---
 

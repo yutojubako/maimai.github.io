@@ -11,7 +11,7 @@ I'm a **Vision and Language Researcher** and **Machine Learning Engineer** based
 ## 🚀 What I Do
 
 I specialize in the intersection of computer vision and natural language processing:
-- **Evaluation of MLLMs**: 
+- **Evaluation of MLLMs**: Creating fair evaluation codebases for multimodal models with omnidirectional and perspective images
 - **Multimodal AI**: Developing vision-language models that can understand and reason about both images and text
 - **Cross-Modal Retrieval**: Building systems that can search for objects using natural language descriptions
 - **Referring Expression Comprehension**: Enabling models to identify specific objects in images based on textual descriptions
