@@ -117,6 +117,19 @@
         document.documentElement.setAttribute('lang', lang);
     }
 
+    // Utility function for debouncing
+    function debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    }
+
     // Scroll to Top functionality
     function initScrollToTop() {
         const scrollToTopBtn = document.getElementById('scroll-to-top');
@@ -143,8 +156,9 @@
             });
         }
 
-        // Event listeners
-        window.addEventListener('scroll', toggleScrollToTopButton, { passive: true });
+        // Event listeners with debouncing for better performance
+        const debouncedToggleScrollToTopButton = debounce(toggleScrollToTopButton, 100);
+        window.addEventListener('scroll', debouncedToggleScrollToTopButton, { passive: true });
         scrollToTopBtn.addEventListener('click', scrollToTop);
         
         // Keyboard accessibility
