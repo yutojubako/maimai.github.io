@@ -52,9 +52,11 @@
     // Language Switcher
     function initLanguageSwitcher() {
         const toggle = document.getElementById('language-toggle');
+        const langCurrent = toggle?.querySelector('.lang-current');
+        const langOther = toggle?.querySelector('.lang-other');
         
-        if (!toggle) {
-            console.log('Language toggle not found');
+        if (!toggle || !langCurrent || !langOther) {
+            console.log('Language toggle elements not found');
             return;
         }
 
@@ -62,8 +64,9 @@
         const currentLang = localStorage.getItem('language') || 'en';
         console.log('Current language:', currentLang);
         
-        // Apply the saved language
+        // Apply the saved language and update toggle display
         switchLanguage(currentLang);
+        updateLanguageToggleDisplay(currentLang, langCurrent, langOther);
 
         // Toggle functionality
         toggle.addEventListener('click', function(e) {
@@ -74,10 +77,21 @@
             console.log('Switching from', currentLang, 'to', newLang);
             
             switchLanguage(newLang);
+            updateLanguageToggleDisplay(newLang, langCurrent, langOther);
             localStorage.setItem('language', newLang);
         });
         
         console.log('Language switcher initialized');
+    }
+
+    function updateLanguageToggleDisplay(currentLang, langCurrentEl, langOtherEl) {
+        if (currentLang === 'en') {
+            langCurrentEl.textContent = 'EN';
+            langOtherEl.textContent = 'JA';
+        } else {
+            langCurrentEl.textContent = 'JA';
+            langOtherEl.textContent = 'EN';
+        }
     }
 
     function switchLanguage(lang) {
@@ -103,14 +117,74 @@
         document.documentElement.setAttribute('lang', lang);
     }
 
+    // Utility function for debouncing
+    function debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    }
+
+    // Scroll to Top functionality
+    function initScrollToTop() {
+        const scrollToTopBtn = document.getElementById('scroll-to-top');
+        
+        if (!scrollToTopBtn) {
+            console.log('Scroll to top button not found');
+            return;
+        }
+
+        // Show/hide button based on scroll position
+        function toggleScrollToTopButton() {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+        }
+
+        // Scroll to top with smooth animation
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Event listeners with debouncing for better performance
+        const debouncedToggleScrollToTopButton = debounce(toggleScrollToTopButton, 100);
+        window.addEventListener('scroll', debouncedToggleScrollToTopButton, { passive: true });
+        scrollToTopBtn.addEventListener('click', scrollToTop);
+        
+        // Keyboard accessibility
+        scrollToTopBtn.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                scrollToTop();
+            }
+        });
+        
+        // Initial check
+        toggleScrollToTopButton();
+        
+        console.log('Scroll to top initialized');
+    }
+
     // Initialize when DOM is loaded
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', function() {
             initDarkMode();
             initLanguageSwitcher();
+            initScrollToTop();
         });
     } else {
         initDarkMode();
         initLanguageSwitcher();
+        initScrollToTop();
     }
 })();
