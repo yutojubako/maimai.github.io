@@ -108,6 +108,10 @@ html[data-theme="dark"] body {
 }
 
 /* Theme and Language Toggle Buttons */
+.mobile-toggles {
+  display: none; /* Hidden on desktop */
+}
+
 .dark-mode-toggle {
   background: white;
   border: 1px solid var(--gray-300);
