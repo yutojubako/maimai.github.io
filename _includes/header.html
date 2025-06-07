@@ -41,17 +41,20 @@
             {%- endif -%}
           {%- endfor -%}
           
-          <!-- Dark Mode Toggle -->
-          <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
-            <span class="dark-mode-icon">🌙</span>
-          </button>
-          
-          <!-- Language Switcher -->
-          <button id="language-toggle" class="language-toggle" aria-label="Switch language">
-            <span class="lang-current">EN</span>
-            <span class="lang-separator">|</span>
-            <span class="lang-other">JA</span>
-          </button>
+          <!-- Mobile toggle buttons container -->
+          <div class="mobile-toggles">
+            <!-- Dark Mode Toggle -->
+            <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+              <span class="dark-mode-icon">🌙</span>
+            </button>
+            
+            <!-- Language Switcher -->
+            <button id="language-toggle" class="language-toggle" aria-label="Switch language">
+              <span class="lang-current">EN</span>
+              <span class="lang-separator">|</span>
+              <span class="lang-other">JA</span>
+            </button>
+          </div>
         </div>
       </nav>
     {%- endif -%}
