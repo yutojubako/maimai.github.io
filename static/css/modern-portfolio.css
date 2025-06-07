@@ -273,27 +273,6 @@ html[data-theme="dark"] body {
     opacity: 1;
     transform: translateY(0);
   }
-  
-  /* Better mobile navigation layout */
-  .site-nav .trigger {
-    text-align: left;
-  }
-  
-  .site-nav .trigger .page-link {
-    display: block;
-    padding: 0.75rem 0;
-    border-bottom: 1px solid var(--gray-200);
-  }
-  
-  .site-nav .trigger .page-link:last-of-type {
-    border-bottom: none;
-  }
-  
-  .site-nav .trigger .dark-mode-toggle,
-  .site-nav .trigger .language-toggle {
-    margin: 0.5rem 0;
-    display: inline-flex;
-  }
 }
 
 /* Base Styles */
