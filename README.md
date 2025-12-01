@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0c8f904c-1d1b-4cdf-a56c-b2fc6c13da90" alt="Header Image" width="300">
+</div>
+
 <h1 align="center">
   maimai.github.io
 </h1>
