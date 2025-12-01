@@ -5,15 +5,12 @@
     // Dark Mode Toggle
     function initDarkMode() {
         const toggle = document.getElementById('dark-mode-toggle');
+        const toggleDesktop = document.getElementById('dark-mode-toggle-desktop');
         const icon = toggle?.querySelector('.dark-mode-icon');
+        const iconDesktop = toggleDesktop?.querySelector('.dark-mode-icon');
         
-        if (!toggle) {
+        if (!toggle && !toggleDesktop) {
             console.log('Dark mode toggle not found');
-            return;
-        }
-        
-        if (!icon) {
-            console.log('Dark mode icon not found');
             return;
         }
 
@@ -24,11 +21,26 @@
         // Apply the saved theme
         document.documentElement.setAttribute('data-theme', currentTheme);
         document.body.setAttribute('data-theme', currentTheme);
-        updateDarkModeIcon(icon, currentTheme);
+        if (icon) updateDarkModeIcon(icon, currentTheme);
+        if (iconDesktop) updateDarkModeIcon(iconDesktop, currentTheme);
 
-        // Toggle functionality
-        toggle.addEventListener('click', function(e) {
-            e.preventDefault();
+        // Toggle functionality for mobile
+        if (toggle) {
+            toggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                toggleTheme();
+            });
+        }
+        
+        // Toggle functionality for desktop
+        if (toggleDesktop) {
+            toggleDesktop.addEventListener('click', function(e) {
+                e.preventDefault();
+                toggleTheme();
+            });
+        }
+        
+        function toggleTheme() {
             const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
             
@@ -37,8 +49,9 @@
             document.documentElement.setAttribute('data-theme', newTheme);
             document.body.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
-            updateDarkModeIcon(icon, newTheme);
-        });
+            if (icon) updateDarkModeIcon(icon, newTheme);
+            if (iconDesktop) updateDarkModeIcon(iconDesktop, newTheme);
+        }
         
         console.log('Dark mode initialized');
     }
@@ -52,10 +65,13 @@
     // Language Switcher
     function initLanguageSwitcher() {
         const toggle = document.getElementById('language-toggle');
+        const toggleDesktop = document.getElementById('language-toggle-desktop');
         const langCurrent = toggle?.querySelector('.lang-current');
         const langOther = toggle?.querySelector('.lang-other');
+        const langCurrentDesktop = toggleDesktop?.querySelector('.lang-current');
+        const langOtherDesktop = toggleDesktop?.querySelector('.lang-other');
         
-        if (!toggle || !langCurrent || !langOther) {
+        if (!toggle && !toggleDesktop) {
             console.log('Language toggle elements not found');
             return;
         }
@@ -66,20 +82,44 @@
         
         // Apply the saved language and update toggle display
         switchLanguage(currentLang);
-        updateLanguageToggleDisplay(currentLang, langCurrent, langOther);
+        if (langCurrent && langOther) {
+            updateLanguageToggleDisplay(currentLang, langCurrent, langOther);
+        }
+        if (langCurrentDesktop && langOtherDesktop) {
+            updateLanguageToggleDisplay(currentLang, langCurrentDesktop, langOtherDesktop);
+        }
 
-        // Toggle functionality
-        toggle.addEventListener('click', function(e) {
-            e.preventDefault();
+        // Toggle functionality for mobile
+        if (toggle) {
+            toggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                toggleLanguage();
+            });
+        }
+        
+        // Toggle functionality for desktop
+        if (toggleDesktop) {
+            toggleDesktop.addEventListener('click', function(e) {
+                e.preventDefault();
+                toggleLanguage();
+            });
+        }
+        
+        function toggleLanguage() {
             const currentLang = localStorage.getItem('language') || 'en';
             const newLang = currentLang === 'en' ? 'ja' : 'en';
             
             console.log('Switching from', currentLang, 'to', newLang);
             
             switchLanguage(newLang);
-            updateLanguageToggleDisplay(newLang, langCurrent, langOther);
+            if (langCurrent && langOther) {
+                updateLanguageToggleDisplay(newLang, langCurrent, langOther);
+            }
+            if (langCurrentDesktop && langOtherDesktop) {
+                updateLanguageToggleDisplay(newLang, langCurrentDesktop, langOtherDesktop);
+            }
             localStorage.setItem('language', newLang);
-        });
+        }
         
         console.log('Language switcher initialized');
     }

@@ -8,7 +8,7 @@ layout: default
     <div class="hero-content">
       {%- if site.icon -%}
         <div style="text-align: center; margin-bottom: 2rem;">
-          <img src="{{ site.icon | relative_url }}" alt="{{ site.title }}" class="hero-icon" style="height: 120px; width: 120px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+          <img src="{{ site.icon | relative_url }}" alt="{{ site.title }}" class="hero-icon" style="height: 120px; width: 120px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" loading="eager" fetchpriority="high">
         </div>
       {%- endif -%}
       <h1 class="section-title" style="margin-bottom: 1rem; font-size: 3rem;">
