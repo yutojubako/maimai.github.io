@@ -3,17 +3,17 @@
 </h1>
 
 <div align="center">
-  個人ブログサイト - 機械学習とロボティクスの研究記録
+  研究者のための個人Webサイト - 機械学習とロボティクスの研究記録
   <br />
   <br />
-  <a href="https://yutojubako.github.io/maimai.github.io/"><strong>サイトを見る »</strong></a>
+  <a href="https://yutojubako.github.io/maimai.github.io/"><strong>Webサイトを見る »</strong></a>
   <br />
   <br />
   <a href="https://github.com/yutojubako/maimai.github.io/issues/new?assignees=&labels=bug&template=bug_report.md&title=bug%3A+">バグ報告</a>
   ·
   <a href="https://github.com/yutojubako/maimai.github.io/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=feat%3A+">機能リクエスト</a>
   ·
-  <a href="https://github.com/yutojubako/maimai.github.io/issues/new?assignees=&labels=question&template=support_question.md&title=support%3A+">質問する</a>
+  <a href="https://github.com/yutojubako/maimai.github.io/issues/new?assignees=&labels=question&template=support_question.md&title=support%3A+">質問</a>
 </div>
 
 <div align="center">
@@ -48,16 +48,18 @@
 
 ## 概要
 
-このリポジトリは、Yuto Imai の個人ブログサイトのソースコードです。機械学習、コンピュータビジョン、ロボティクスに関する研究内容や技術的な知見を共有することを目的としています。
+Yuto Imaiの研究活動やプロジェクトを紹介する個人Webサイトのリポジトリです。機械学習、コンピュータビジョン、ロボティクスに関する研究成果や技術的な知見を発信しています。
 
-主な特徴：
+**主な機能：**
 
-- Jekyll ベースの静的サイト生成
-- GitHub Pages による自動デプロイ
-- レスポンシブデザイン対応
-- ブログ記事、プロジェクト、履歴書の公開
+- Jekyllベースの静的サイトジェネレーター
+- GitHub Pagesによる自動デプロイメント
+- レスポンシブデザイン
+- ブログ記事、研究プロジェクト、履歴書の公開
 
 **公開URL**: <https://yutojubako.github.io/maimai.github.io/>
+
+> **Note**: このリポジトリは [GitHub Copilot](https://github.com/features/copilot) を活用して開発されています。
 
 ### 使用技術
 
@@ -70,13 +72,13 @@
 
 ### 前提条件
 
-ローカル環境でサイトをビルド・プレビューするには、以下が必要です：
+ローカル環境でサイトをビルド・プレビューする場合、以下が必要です：
 
-- Ruby 3.1 以上
+- Ruby 3.1以上
 - Bundler
 - Git
 
-### インストール
+### ローカルでの実行方法
 
 1. リポジトリをクローン
 
@@ -85,7 +87,7 @@
    cd maimai.github.io
    ```
 
-2. 依存関係をインストール
+2. 依存パッケージをインストール
 
    ```bash
    bundle install
@@ -99,13 +101,13 @@
 
 4. ブラウザで確認
 
-   <http://localhost:4000/maimai.github.io/> にアクセス
+   ブラウザで <http://localhost:4000/maimai.github.io/> にアクセスします。
 
 ## 使い方
 
-### ブログ記事の追加
+### 新しい記事の投稿
 
-`_posts/` ディレクトリに `YYYY-MM-DD-title.md` 形式でファイルを作成します。
+`_posts/` ディレクトリに `YYYY-MM-DD-title.md` の形式でMarkdownファイルを作成します。
 
 ```markdown
 ---
@@ -115,45 +117,45 @@ date: 2024-01-01
 categories: [machine-learning, robotics]
 ---
 
-記事の内容...
+記事の内容を記述...
 ```
 
 ### プロジェクトの追加
 
-`projects.md` を編集してプロジェクト情報を追加します。
+`projects.md` ファイルを編集してプロジェクト情報を追加できます。
 
-### 設定の変更
+### サイト設定のカスタマイズ
 
-`_config.yml` でサイトの基本設定を変更できます。
+`_config.yml` ファイルでサイトの基本設定（タイトル、説明、SNSリンクなど）を変更できます。
 
 ## ロードマップ
 
 今後の予定：
 
-- [ ] 記事の検索機能追加
+- [ ] 記事検索機能の追加
 - [ ] タグ別記事一覧ページの実装
-- [ ] RSS フィードの最適化
+- [ ] RSSフィードの最適化
 - [ ] ダークモード対応の改善
-- [ ] 多言語対応（日本語/英語）
+- [ ] 多言語対応（日本語・英語）
 
 進行中の機能や提案については [Issues](https://github.com/yutojubako/maimai.github.io/issues) をご覧ください。
 
 ## コントリビューション
 
-コントリビューションを歓迎します！ぜひご協力ください。
+プロジェクトへの貢献を歓迎します。バグ報告、機能提案、プルリクエストなど、どのような形でも大歓迎です。
 
-詳細は [CONTRIBUTING.md](docs/CONTRIBUTING.md) をご確認ください。
+詳細については [CONTRIBUTING.md](docs/CONTRIBUTING.md) をご確認ください。
 
 ## サポート
 
-サポートが必要な場合は、以下の方法でお問い合わせください：
+ご質問やサポートが必要な場合は、以下の方法でお問い合わせください：
 
-- [Issue を作成](https://github.com/yutojubako/maimai.github.io/issues/new?assignees=&labels=question&template=support_question.md&title=support%3A+)
+- [Issueを作成](https://github.com/yutojubako/maimai.github.io/issues/new?assignees=&labels=question&template=support_question.md&title=support%3A+)
 - Email: ytim8812@keio.jp
 
 ## セキュリティ
 
-セキュリティ上の問題を発見した場合は、[SECURITY.md](docs/SECURITY.md) の手順に従って報告してください。
+セキュリティ上の問題を発見された場合は、[SECURITY.md](docs/SECURITY.md) の手順に従って報告してください。
 
 ## ライセンス
 
@@ -161,7 +163,10 @@ categories: [machine-learning, robotics]
 
 ## 謝辞
 
-- [Jekyll](https://jekyllrb.com/) - 優れた静的サイトジェネレーター
-- [Minima Theme](https://github.com/jekyll/minima) - シンプルで美しいテーマ
-- [GitHub Pages](https://pages.github.com/) - 無料のホスティングサービス
+このプロジェクトは以下のツールやテンプレートを活用しています：
+
+- [Jekyll](https://jekyllrb.com/) - 静的サイトジェネレーター
+- [Minima Theme](https://github.com/jekyll/minima) - シンプルで美しいJekyllテーマ
+- [GitHub Pages](https://pages.github.com/) - 無料ホスティングサービス
 - [amazing-github-template](https://github.com/dec0dOS/amazing-github-template) - プロジェクト構成の参考
+- [GitHub Copilot](https://github.com/features/copilot) - AI支援による開発ツール
