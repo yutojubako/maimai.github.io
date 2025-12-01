@@ -63,7 +63,7 @@
   {%- feed_meta -%}
   
   <!-- Preconnect to External Domains for Better Performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="dns-prefetch" href="https://fonts.googleapis.com">
   
   <!-- Stylesheets -->
@@ -76,10 +76,6 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  
-  <!-- Performance: Preload Critical Resources -->
-  <link rel="preload" href="{{ '/static/css/modern-portfolio.css' | relative_url }}" as="style">
-  <link rel="preload" href="{{ '/static/js/theme-language-switcher.js' | relative_url }}" as="script">
   
   <!-- Structured Data for Rich Snippets -->
   <script type="application/ld+json">
