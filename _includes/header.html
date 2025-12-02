@@ -1,5 +1,8 @@
 <header class="site-header" role="banner">
 
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -41,15 +44,30 @@
             {%- endif -%}
           {%- endfor -%}
           
-          <!-- Mobile toggle buttons container -->
-          <div class="mobile-toggles">
+          <!-- Desktop toggle buttons (visible on desktop, hidden on mobile) -->
+          <div class="desktop-toggles">
             <!-- Dark Mode Toggle -->
-            <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+            <button id="dark-mode-toggle-desktop" class="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
               <span class="dark-mode-icon">🌙</span>
             </button>
             
             <!-- Language Switcher -->
-            <button id="language-toggle" class="language-toggle" aria-label="Switch language">
+            <button id="language-toggle-desktop" class="language-toggle" aria-label="Switch language" title="Switch between English and Japanese">
+              <span class="lang-current">EN</span>
+              <span class="lang-separator">|</span>
+              <span class="lang-other">JA</span>
+            </button>
+          </div>
+          
+          <!-- Mobile toggle buttons container -->
+          <div class="mobile-toggles">
+            <!-- Dark Mode Toggle -->
+            <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+              <span class="dark-mode-icon">🌙</span>
+            </button>
+            
+            <!-- Language Switcher -->
+            <button id="language-toggle" class="language-toggle" aria-label="Switch language" title="Switch between English and Japanese">
               <span class="lang-current">EN</span>
               <span class="lang-separator">|</span>
               <span class="lang-other">JA</span>
