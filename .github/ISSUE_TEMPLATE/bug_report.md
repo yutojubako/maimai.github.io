@@ -1,10 +1,10 @@
----
+<!--
 name: バグ報告
 about: バグを報告してプロジェクトの改善にご協力ください
 title: 'bug: '
 labels: bug
 assignees: ''
----
+-->
 
 ## バグの説明
 

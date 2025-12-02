@@ -1,10 +1,10 @@
----
+<!--
 name: サポート質問
 about: プロジェクトに関する質問をする
 title: 'support: '
 labels: question
 assignees: ''
----
+-->
 
 ## 質問
 

@@ -1,10 +1,10 @@
----
+<!--
 name: 機能リクエスト
 about: このプロジェクトのアイデアを提案する
 title: 'feat: '
 labels: enhancement
 assignees: ''
----
+-->
 
 ## 機能リクエストは問題に関連していますか？
 
