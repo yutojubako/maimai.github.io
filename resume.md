@@ -1,14 +1,10 @@
----
-layout: page
-title: Resume
-permalink: /resume/
----
-
 # Yuto Imai
 
-**Multimodal AI Researcher & Machine Learning Engineer**  
+**Multimodal AI Research Engineer**  
+Research engineer at SB Intuitions, building and evaluating Japanese-specialized vision-language models.
+
 📧 yuto.imai@sbintuitions.co.jp  
-🌐 [GitHub](https://github.com/yutojubako) | [Personal Site](https://yutojubako.github.io/maimai.github.io/about/)
+🌐 [GitHub](https://github.com/yutojubako) | [Blog](https://yutojubako.github.io/blog/)
 
 ---
 
@@ -137,7 +133,7 @@ Hiyoshi, Yokohama City, Japan
 - **Python** - Advanced (PyTorch, TensorFlow, scikit-learn)
 - **Machine Learning**: Computer Vision, NLP, Multimodal AI
 - **Research Tools**: Jupyter, MLflow, Weights & Biases
-- **Development**: Git, Docker, Linux
+- **Development**: Git, Docker, Linux, AWS
 
 ### Specializations
 - **Multimodal AI**: Vision-language models, cross-modal retrieval
@@ -151,6 +147,7 @@ Hiyoshi, Yokohama City, Japan
 
 ### Technical Blogs
 - [SB Intuitions Tech Blog: YANS2026 参加報告](https://www.sbintuitions.co.jp/blog/entry/2026/08/31/105922) (co-author)
+- [SB Intuitions Tech Blog: Sarashina2.2-Vision-3B コンパクトかつ性能が高いVLMの公開](https://www.sbintuitions.co.jp/blog/entry/2025/11/25/100000)
 - [SB Intuitions Tech Blog: Sarashina2-Vision-8B, 14Bの性能評価](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111703)
 - [SB Intuitions Tech Blog: Sarashina2-Vision 日本語特化の大規模視覚言語モデルの公開](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111659)
 - [SB Intuitions Tech Blog: 多肢選択形式のベンチマーク](https://www.sbintuitions.co.jp/blog/entry/2024/10/18/090000)
