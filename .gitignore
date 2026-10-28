@@ -9,3 +9,12 @@ resources/
 _site/
 .bundle/
 vendor/
+
+# Astro
+dist/
+.astro/
+node_modules/
+npm-debug.log*
+.env
+.env.production
+.vercel
