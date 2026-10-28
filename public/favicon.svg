@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>
+  <!-- Lid handle: the one small detail that says "box", not "stack of bars" -->
+  <rect x='28' y='9' width='8' height='6' rx='2.5' fill='#1a1a1a'/>
+  <!-- Lid: widest visual weight on top, tight radius -->
+  <rect x='14' y='13' width='36' height='12' rx='3.5' fill='#1a1a1a'/>
+  <!-- Middle tier: the single blue accent, like a lacquered layer -->
+  <rect x='12' y='27' width='40' height='12' rx='3.5' fill='#1c2a4a'/>
+  <!-- Base tier: widest and tallest, softest corners — grounds the stack -->
+  <rect x='10' y='41' width='44' height='13' rx='4' fill='#1a1a1a'/>
+</svg>
