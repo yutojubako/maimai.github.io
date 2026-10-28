@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#faf7f0"/>
-  <rect x="12" y="38" width="34" height="12" rx="3" fill="#1a1a1a"/>
-  <rect x="18" y="23" width="34" height="12" rx="3" fill="#1c2a4a"/>
-  <rect x="12" y="8"  width="34" height="12" rx="3" fill="#1a1a1a"/>
-  <rect x="12" y="8"  width="34" height="3" rx="1.5" fill="#faf7f0" opacity="0.18"/>
-  <rect x="18" y="23" width="34" height="3" rx="1.5" fill="#faf7f0" opacity="0.18"/>
-  <rect x="12" y="38" width="34" height="3" rx="1.5" fill="#faf7f0" opacity="0.18"/>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>
+  <!-- jubako: three stacked lacquer tiers, descending staircase -->
+  <rect width='64' height='64' rx='14' fill='#faf7f0'/>
+  <!-- bounds: x 10..54, y 11..53 → centered at 32,32 -->
+  <rect x='10' y='11' width='40' height='12' rx='3.5' fill='#1a1a1a'/>
+  <rect x='12' y='26' width='40' height='12' rx='3.5' fill='#1c2a4a'/>
+  <rect x='14' y='41' width='40' height='12' rx='3.5' fill='#1a1a1a'/>
 </svg>
