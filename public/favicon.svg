@@ -1,15 +1,9 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>
-  <!-- 今 (from 今井) — ivory strokes on ink tile, matching the site's Ivory & Ink palette -->
-  <rect width='64' height='64' rx='14' fill='#1c2a4a'/>
-  <g stroke='#faf7f0' stroke-width='6' stroke-linecap='round' stroke-linejoin='round' fill='none'>
-    <!-- roof: 𠆢 -->
-    <path d='M32 13 L16 32'/>
-    <path d='M32 13 L48 32'/>
-    <!-- dot -->
-    <path d='M32 23 L32 27'/>
-    <!-- bar -->
-    <path d='M14 36 H50'/>
-    <!-- fold -->
-    <path d='M24 43 V53 H38'/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="12" fill="#faf7f0"/>
+  <!-- eye: two confident arcs, ink stroke -->
+  <path d="M9 32 Q32 13 55 32 Q32 51 9 32 Z" fill="#faf7f0" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- iris: the deep-blue accent -->
+  <circle cx="32" cy="32" r="7.5" fill="#1c2a4a"/>
+  <!-- light rays: perception / vision input -->
+  <path d="M32 9 v-4 M17 13 l3 4 M47 13 l-3 4" stroke="#1c2a4a" stroke-width="4" stroke-linecap="round" fill="none"/>
 </svg>
