@@ -1,0 +1,368 @@
+---
+import PageLayout from '../layouts/BaseLayout.astro'
+import Section from '../components/Section.astro'
+import Card from '../components/Card.astro'
+import Label from '../components/Label.astro'
+import SkillLayout from '../components/SkillLayout.astro'
+
+import { Image } from 'astro:assets'
+import myicon from '../assets/myicon.png'
+
+const languages = ['Japanese (Native)', 'English (TOEIC 750)']
+const research = [
+	'Multimodal AI (VLMs)',
+	'Computer Vision',
+	'Natural Language Processing',
+	'Robotics',
+	'MLLM Evaluation',
+	'Cross-modal Retrieval'
+]
+const programming = ['Python', 'PyTorch', 'TensorFlow', 'scikit-learn']
+const tools = ['Git', 'Docker', 'Linux', 'Jupyter', 'MLflow', 'Weights & Biases', 'AWS']
+---
+
+<PageLayout meta={{ title: 'Home' }}>
+	<div class='flex w-full flex-col gap-y-16'>
+		<section class='flex flex-col items-center gap-y-6 border-b border-border/70 pb-12 text-center'>
+			<Image
+				src={myicon}
+				alt='profile photo'
+				class='h-28 w-auto rounded-full border border-border bg-card p-2'
+				loading='eager'
+			/>
+
+			<div class='flex flex-col items-center gap-y-3'>
+				<h1 class='font-serif text-4xl font-semibold tracking-tight'>Yuto Imai (今井悠人)</h1>
+				<p class='italic text-muted-foreground'>
+					Multimodal AI Research Engineer
+				</p>
+				<div class='flex flex-wrap justify-center gap-x-7 gap-y-3'>
+					<Label title='yuto.imai@sbintuitions.co.jp'>
+						<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' class='h-5 w-5' slot='icon'
+							><path
+								fill='currentColor'
+								d='M4.615 20q-.69 0-1.152-.462Q3 19.075 3 18.385v-9.77q0-.69.463-1.152Q3.925 7 4.615 7H9V5.615q0-.69.463-1.152Q9.925 4 10.615 4h2.77q.69 0 1.153.463q.462.462.462 1.152V7h4.385q.69 0 1.152.463q.463.462.463 1.152v9.77q0 .69-.462 1.152q-.463.463-1.153.463zm0-1h14.77q.23 0 .423-.192q.192-.193.192-.423v-9.77q0-.23-.192-.423Q19.615 8 19.385 8H4.615q-.23 0-.423.192Q4 8.385 4 8.615v9.77q0 .23.192.423q.193.192.423.192M10 7h4V5.615q0-.23-.192-.423Q13.615 5 13.385 5h-2.77q-.23 0-.423.192q-.192.193-.192.423zM4 19V8z'
+							></path></svg
+						>
+					</Label>
+					<Label
+						title='GitHub'
+						as='a'
+						href='https://github.com/yutojubako'
+						target='_blank'
+					>
+						<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' class='h-5 w-5' slot='icon'
+							><path
+								fill='currentColor'
+								d='M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z'
+							></path></svg
+						>
+					</Label>
+				</div>
+			</div>
+		</section>
+
+		<Section title='About'>
+			<p class='text-muted-foreground'>
+				Research engineer at SB Intuitions, building and evaluating Japanese-specialized vision-language models.
+			</p>
+		</Section>
+
+		<Section title='Experience'>
+			<Card
+				heading='SB Intuitions Corp.'
+				subheading='Research Engineer'
+				date='Apr 2026 - Present'
+			>
+				<ul class='ml-4 list-disc text-muted-foreground'>
+					<li>Development of Japanese-specialized vision-language models</li>
+					<li>Performance evaluation of large-scale multimodal models</li>
+					<li>Technical blog contributions on model evaluation and benchmarking</li>
+				</ul>
+			</Card>
+			<Card
+				heading='SB Intuitions Corp.'
+				subheading='Research Intern'
+				date='Aug 2024 - Mar 2026'
+			>
+				<ul class='ml-4 list-disc text-muted-foreground'>
+					<li>Development of Japanese-specialized vision-language models</li>
+					<li>
+						Co-authored the YANS2026 participation report on the SB Intuitions tech blog
+					</li>
+					<li>Performance evaluation of large-scale multimodal models</li>
+				</ul>
+			</Card>
+
+		</Section>
+
+		<Section title='Education'>
+			<Card
+				heading='Keio University'
+				subheading='Graduate School of Science and Technology, Center for Information and Computer Science'
+				date='Apr 2024 - Mar 2026'
+			>
+				<ul class='ml-4 list-disc text-muted-foreground'>
+					<li>Degree: Master of Engineering (修士（工学）), completed March 2026</li>
+					<li>Hiyoshi, Yokohama City, Japan</li>
+				</ul>
+			</Card>
+		</Section>
+
+		<Section title='Publications &amp; Research'>
+			<Card
+				heading='DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions'
+				subheading='Advanced Robotics, Vol. 39, Issue 5, pp. 243-258, 2025 (Journal Article)'
+				date='2025'
+			>
+				<ul class='ml-4 list-disc text-muted-foreground'>
+					<li>
+						R. Korekata, K. Kaneda, S. Nagashima, Y. Imai, and K. Sugiura
+					</li>
+				</ul>
+			</Card>
+			<Card heading='OmniOpenVQA' subheading='第28回画像の認識・理解シンポジウム (MIRU2025) / 第20回言語処理若手シンポジウム (YANS2025) — YANS2025 奨励賞' date='2025'>
+				<ul class='ml-4 list-disc text-muted-foreground'>
+					<li>
+						今井悠人, 五十川麻理子: 「OmniOpenVQA: 全天球画像を入力とした自由応答形式のVQAデータセットの構築」
+					</li>
+				</ul>
+			</Card>
+			<Card
+				heading='言語横断プロンプトによるマルチモーダル検索'
+				subheading='第28回画像の認識・理解シンポジウム (MIRU2025) / 人工知能学会全国大会 2025'
+				date='2025'
+			>
+				<ul class='ml-4 list-disc text-muted-foreground'>
+					<li>
+						戸倉健登, 後神美結, 雨宮佳音, 八島大地, 勝又圭, 今井悠人, 小松拓実, 是方諒介, 杉浦孔明:
+						「シーンテキストを考慮したCrosslingual Visual Promptに基づくマルチモーダル検索」
+					</li>
+					<li>
+						戸倉健登, 是方諒介, 小松拓実, 今井悠人, 杉浦孔明: 「Crosslingual Visual Promptに基づくテキスト付き画像からの日常物体検索」
+						(JSAI 2025, 1Win4-52)
+					</li>
+				</ul>
+			</Card>
+		</Section>
+
+		<Section title='Awards &amp; Recognition'>
+			<Card
+				heading='DM2RM — Advanced Robotics Best Paper Award'
+				subheading='日本ロボット学会 (RSJ2026), September 2026'
+				date='2026'
+			>
+				<ul class='ml-4 list-disc text-muted-foreground'>
+					<li>
+						Awarded to "DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles
+						Based on Open-Vocabulary Instructions" (co-author), Advanced Robotics, Vol. 39, Issue 5, 2025
+					</li>
+				</ul>
+			</Card>
+			<Card
+				heading='YANS2025 奨励賞'
+				subheading='第20回言語処理若手シンポジウム, September 2025'
+				date='2025'
+			>
+				<ul class='ml-4 list-disc text-muted-foreground'>
+					<li>
+						「マルチモーダル大規模言語モデルのための360度画像を対象としたVQAデータセットの構築」(今井悠人, 五十川麻理子) — selected as 1 of 24 奨励賞 from 246 presentations
+					</li>
+				</ul>
+			</Card>
+		</Section>
+
+		<Section title='Technical Blogs &amp; Media'>
+			<Card
+				as='a'
+				heading='YANS2026 参加報告'
+				subheading='SB Intuitions Tech Blog (co-author)'
+				date='Aug 2026'
+				href='https://www.sbintuitions.co.jp/blog/entry/2026/08/31/105922'
+			/>
+			<Card
+				as='a'
+				heading='Sarashina2-Vision-8B, 14Bの性能評価'
+				subheading='SB Intuitions Tech Blog'
+				date='Mar 2025'
+				href='https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111703'
+			/>
+			<Card
+				as='a'
+				heading='Sarashina2-Vision 日本語特化の大規模視覚言語モデルの公開'
+				subheading='SB Intuitions Tech Blog'
+				date='Mar 2025'
+				href='https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111659'
+			/>
+		</Section>
+
+		<Section title='Skills'>
+			<SkillLayout title='Languages' skills={languages} />
+			<SkillLayout title='Research' skills={research} />
+			<SkillLayout title='Programming' skills={programming} />
+			<SkillLayout title='Tools' skills={tools} />
+		</Section>
+		<details class='group flex flex-col gap-y-5 md:flex-row md:gap-y-0'>
+			<summary
+				class='flex cursor-pointer list-none items-center gap-x-2 text-muted-foreground transition-colors hover:text-foreground'
+			>
+				<h2 class='text-lg font-medium uppercase tracking-[0.18em]'>
+					Earlier (before 2025)
+				</h2>
+				<svg
+					xmlns='http://www.w3.org/2000/svg'
+				viewBox='0 0 24 24'
+				class='h-4 w-4 shrink-0 transition-transform group-open:rotate-90'
+					><path
+						fill='currentColor'
+						d='M9 6l6 6-6 6'
+					></path></svg
+				>
+			</summary>
+			<div class='mt-6 flex w-full flex-col gap-y-6 md:pl-[33%]'>
+				<Card
+					heading='Elith Inc.'
+					subheading='Machine Learning Engineer Intern'
+					date='Dec 2023 - Mar 2024'
+				>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>Applied machine learning solutions for real-world applications</li>
+					</ul>
+				</Card>
+				<Card
+					heading='pluszero Inc.'
+					subheading='Machine Learning Engineer Intern'
+					date='Apr 2023 - Mar 2024'
+				>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>Developed and deployed machine learning models for production environments</li>
+					</ul>
+				</Card>
+				<Card heading='大規模屋内環境における物体検索' subheading='日本ロボット学会 / 人工知能学会全国大会' date='2024'>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>
+							今井悠人, 是方諒介, 杉浦孔明: 「Dense textを用いたマルチモーダルLLMに基づく大規模屋内環境における物体検索」
+							(第42回日本ロボット学会学術講演会, RSJ2024)
+						</li>
+						<li>
+							今井悠人, 兼田寛大, 是方諒介, 杉浦孔明: 「マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン」
+							(第38回人工知能学会全国大会, JSAI2024)
+						</li>
+						<li>
+							是方諒介, 兼田寛大, 長嶋隼矢, 今井悠人, 杉浦孔明: 「大規模言語モデルを用いたSwitching機構付きマルチモーダル検索モデルに基づく生活支援ロボットによる物体操作」
+							(JSAI2024)
+						</li>
+					</ul>
+				</Card>
+				<Card
+					heading='Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions'
+					subheading='IEEE ICRA 2024, Late Breaking Results Poster'
+					date='May 2024'
+				>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>
+							Ryosuke Korekata, Kanta Kaneda, Shunya Nagashima, Yuto Imai, Komei Sugiura —
+							Yokohama, Japan
+						</li>
+					</ul>
+				</Card>
+				<Card heading='参照表現に基づく物体セグメンテーション' subheading='第41回日本ロボット学会学術講演会, 2K1-06' date='2023'>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>
+							今井悠人, 飯岡雄偉, 畑中駿平, 九曜克之, 杉浦孔明: 「マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション」
+						</li>
+					</ul>
+				</Card>
+				<Card
+					heading='2024年度人工知能学会全国大会優秀賞 (JSAI 2024 Outstanding Award)'
+					subheading='人工知能学会, November 2024'
+					date='2024'
+				>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>Selected from 900+ research presentations as top 3% for overall excellence</li>
+					</ul>
+				</Card>
+				<Card
+					heading='第5回優秀研究・技術賞 (5th Excellent Research and Technology Award)'
+					subheading='日本ロボット学会 (RSJ), September 2024'
+					date='2024'
+				>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>
+							Selected from 800+ research presentations for exceptional contribution in usefulness,
+							originality, novelty, and technical excellence
+						</li>
+					</ul>
+				</Card>
+				<Card
+					heading='Winner, DialFRED Challenge @ CVPR 2023'
+					subheading='Team project: "DialMAT: Dialogue-Enabled Transformer with Moment-based Adversarial Training"'
+					date='2023'
+				>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>
+							Collaboration with Kanta Kaneda, Ryosuke Korekata, and team members
+						</li>
+					</ul>
+				</Card>
+				<Card
+					as='a'
+					heading='多肢選択形式のベンチマーク'
+					subheading='SB Intuitions Tech Blog'
+					date='Oct 2024'
+					href='https://www.sbintuitions.co.jp/blog/entry/2024/10/18/090000'
+				/>
+				<Card
+					as='a'
+					heading='Pytorchで書いたモデルの中間層と友達になろう'
+					subheading='Zenn.dev'
+					date='2024'
+					href='https://zenn.dev/aimairesearch/articles/df781b4b8ade4f'
+				/>
+				<Card
+					heading='『ゼロから作るDeep Learning⑤ -生成モデル編』公開レビュー'
+					subheading='Book Review'
+					date='Apr 2024'
+				/>
+				<Card heading='Scholarships' subheading='Keio University' date='2020 - 2024'>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>Keio University An Encouragement of Learning Scholarship: ¥300,000 (2021-2024)</li>
+						<li>Keio University An Encouragement of Learning Scholarship: ¥600,000 (2020)</li>
+						<li>Keio University Iji-kai Scholarship: ¥800,000 (2020)</li>
+					</ul>
+				</Card>
+				<Card
+					heading='Keio AI and Advanced Programming Consortium'
+					subheading='Advanced Machine Learning Course Instructor'
+					date='Apr 2023 - Dec 2023'
+				>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>Taught diffusion model theory and applications to 4th-year undergraduate students</li>
+						<li>Led reading groups and practical sessions</li>
+					</ul>
+				</Card>
+				<Card
+					heading='Yokohama Science Frontier High School'
+					subheading='Science Literacy I Guest Lecturer'
+					date='2023'
+				>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>
+							Delivered specialized lectures to high school students on AI and machine learning
+							concepts
+						</li>
+					</ul>
+				</Card>
+				<Card
+					heading='Keio University'
+					subheading='Department of Information and Computer Science, Bachelor&apos;s Degree'
+					date='Apr 2020 - Mar 2024'
+				>
+					<ul class='ml-4 list-disc text-muted-foreground'>
+						<li>Hiyoshi, Yokohama City, Japan</li>
+					</ul>
+				</Card>
+			</div>
+		</details>
+	</div>
+</PageLayout>

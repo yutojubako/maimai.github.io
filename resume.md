@@ -7,7 +7,7 @@ permalink: /resume/
 # Yuto Imai
 
 **Multimodal AI Researcher & Machine Learning Engineer**  
-📧 ytim8812@keio.jp  
+📧 yuto.imai@sbintuitions.co.jp  
 🌐 [GitHub](https://github.com/yutojubako) | [Personal Site](https://yutojubako.github.io/maimai.github.io/about/)
 
 ---
@@ -16,7 +16,8 @@ permalink: /resume/
 
 **Keio University** - Graduate School of Science and Technology  
 *Center for Information and Computer Science*  
-*Apr 2024 - Present (Master's Program)*  
+*Apr 2024 - Mar 2026 (Master's Program, completed)*  
+*Degree: Master of Engineering (修士（工学）)*  
 Hiyoshi, Yokohama City, Japan
 
 **Keio University** - Department of Information and Computer Science  
@@ -47,8 +48,9 @@ Hiyoshi, Yokohama City, Japan
 ### Conference Presentations
 
 **2025**
-- **今井悠人**, 五十川麻理子: "OmniOpenVQA: 全天球画像を入力とした自由応答形式のVQAデータセットの構築", *画像の認識・理解シンポジウム2025*, 2025.
-- 戸倉健登, 後神美結, 雨宮佳音, 八島大地, 勝又圭, **今井悠人**, 小松拓実, 是方諒介,  杉浦孔明: "シーンテキストを考慮したCrosslingual Visual Promptに基づくマルチモーダル検索", *画像の認識・理解シンポジウム2025*, 2025
+- **今井悠人**, 五十川麻理子: "OmniOpenVQA: 全天球画像を入力とした自由応答形式のVQAデータセットの構築", *第28回画像の認識・理解シンポジウム (MIRU2025)*, 2025.
+- **今井悠人**, 五十川麻理子: "マルチモーダル大規模言語モデルのための360度画像を対象としたVQAデータセットの構築", *第20回言語処理若手シンポジウム (YANS2025)*, 2025. (奨励賞)
+- 戸倉健登, 後神美結, 雨宮佳音, 八島大地, 勝又圭, **今井悠人**, 小松拓実, 是方諒介,  杉浦孔明: "シーンテキストを考慮したCrosslingual Visual Promptに基づくマルチモーダル検索", *第28回画像の認識・理解シンポジウム (MIRU2025)*, 2025.
 - 戸倉健登, 是方諒介, 小松拓実, **今井悠人**, 杉浦孔明: "Crosslingual Visual Promptに基づくテキスト付き画像からの日常物体検索", *2025年度 人工知能学会全国大会*, 1Win4-52, 2025.
 
 **2024**
@@ -68,8 +70,14 @@ Hiyoshi, Yokohama City, Japan
 ## Professional Experience
 
 ### SB Intuitions Corp.
-**Research Intern** *(Aug 2024 - Present)*
+**Research Engineer** *(Apr 2026 - Present)*
 - Development of Japanese-specialized vision-language models
+- Performance evaluation of large-scale multimodal models
+- Technical blog contributions on model evaluation and benchmarking
+
+**Research Intern** *(Aug 2024 - Mar 2026)*
+- Development of Japanese-specialized vision-language models
+- Co-authored the YANS2026 participation report on the SB Intuitions tech blog
 - Performance evaluation of large-scale multimodal models
 - Technical blog contributions on model evaluation and benchmarking
 
@@ -86,6 +94,12 @@ Hiyoshi, Yokohama City, Japan
 ## Awards & Recognition
 
 ### Research Awards
+- **Advanced Robotics Best Paper Award**, *日本ロボット学会 (RSJ2026)*, 2026年9月
+  - Awarded to "DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions" (co-author), *Advanced Robotics*, Vol. 39, Issue 5, 2025
+
+- **YANS2025 奨励賞**, *第20回言語処理若手シンポジウム*, 2025年9月
+  - 「マルチモーダル大規模言語モデルのための360度画像を対象としたVQAデータセットの構築」(今井悠人, 五十川麻理子) — 対象246件中24件選出
+
 - **第5回優秀研究・技術賞**, *日本ロボット学会*, 2024年9月
   - Selected from 800+ research presentations for exceptional contribution in usefulness, originality, novelty, and technical excellence
 
@@ -136,6 +150,7 @@ Hiyoshi, Yokohama City, Japan
 ## Publications & Media
 
 ### Technical Blogs
+- [SB Intuitions Tech Blog: YANS2026 参加報告](https://www.sbintuitions.co.jp/blog/entry/2026/08/31/105922) (co-author)
 - [SB Intuitions Tech Blog: Sarashina2-Vision-8B, 14Bの性能評価](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111703)
 - [SB Intuitions Tech Blog: Sarashina2-Vision 日本語特化の大規模視覚言語モデルの公開](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111659)
 - [SB Intuitions Tech Blog: 多肢選択形式のベンチマーク](https://www.sbintuitions.co.jp/blog/entry/2024/10/18/090000)
@@ -163,4 +178,4 @@ Hiyoshi, Yokohama City, Japan
 
 ---
 
-*Last Updated: June 2025*
+*Last Updated: October 2026*
