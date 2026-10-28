@@ -29,8 +29,8 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		path: '/'
 	},
 	{
-		title: 'Tools',
-		path: '/tools/'
+		title: 'Blog',
+		path: 'https://yutojubako.github.io/blog/'
 	}
 ]
 
