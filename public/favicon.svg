@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="12" fill="#faf7f0"/>
-  <!-- eye: two confident arcs, ink stroke -->
-  <path d="M9 32 Q32 13 55 32 Q32 51 9 32 Z" fill="#faf7f0" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
-  <!-- iris: the deep-blue accent -->
-  <circle cx="32" cy="32" r="7.5" fill="#1c2a4a"/>
-  <!-- light rays: perception / vision input -->
-  <path d="M32 9 v-4 M17 13 l3 4 M47 13 l-3 4" stroke="#1c2a4a" stroke-width="4" stroke-linecap="round" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#faf7f0"/>
+  <rect x="12" y="38" width="34" height="12" rx="3" fill="#1a1a1a"/>
+  <rect x="18" y="23" width="34" height="12" rx="3" fill="#1c2a4a"/>
+  <rect x="12" y="8"  width="34" height="12" rx="3" fill="#1a1a1a"/>
+  <rect x="12" y="8"  width="34" height="3" rx="1.5" fill="#faf7f0" opacity="0.18"/>
+  <rect x="18" y="23" width="34" height="3" rx="1.5" fill="#faf7f0" opacity="0.18"/>
+  <rect x="12" y="38" width="34" height="3" rx="1.5" fill="#faf7f0" opacity="0.18"/>
 </svg>
