@@ -44,18 +44,18 @@ Hiyoshi, Yokohama City, Japan
 ### Conference Presentations
 
 **2025**
-- **今井悠人**, 五十川麻理子: "OmniOpenVQA: 全天球画像を入力とした自由応答形式のVQAデータセットの構築", *第28回画像の認識・理解シンポジウム (MIRU2025)*, 2025.
-- **今井悠人**, 五十川麻理子: "マルチモーダル大規模言語モデルのための360度画像を対象としたVQAデータセットの構築", *第20回言語処理若手シンポジウム (YANS2025)*, 2025. (奨励賞)
-- 戸倉健登, 後神美結, 雨宮佳音, 八島大地, 勝又圭, **今井悠人**, 小松拓実, 是方諒介,  杉浦孔明: "シーンテキストを考慮したCrosslingual Visual Promptに基づくマルチモーダル検索", *第28回画像の認識・理解シンポジウム (MIRU2025)*, 2025.
-- 戸倉健登, 是方諒介, 小松拓実, **今井悠人**, 杉浦孔明: "Crosslingual Visual Promptに基づくテキスト付き画像からの日常物体検索", *2025年度 人工知能学会全国大会*, 1Win4-52, 2025.
+- **Yuto Imai**, 五十川麻理子: "OmniOpenVQA: 全天球画像を入力とした自由応答形式のVQAデータセットの構築", *第28回画像の認識・理解シンポジウム (MIRU2025)*, 2025.
+- **Yuto Imai**, 五十川麻理子: "マルチモーダル大規模言語モデルのための360度画像を対象としたVQAデータセットの構築", *第20回言語処理若手シンポジウム (YANS2025)*, 2025. (奨励賞)
+- 戸倉健登, 後神美結, 雨宮佳音, 八島大地, 勝又圭, **Yuto Imai**, 小松拓実, 是方諒介,  杉浦孔明: "シーンテキストを考慮したCrosslingual Visual Promptに基づくマルチモーダル検索", *第28回画像の認識・理解シンポジウム (MIRU2025)*, 2025.
+- 戸倉健登, 是方諒介, 小松拓実, **Yuto Imai**, 杉浦孔明: "Crosslingual Visual Promptに基づくテキスト付き画像からの日常物体検索", *2025年度 人工知能学会全国大会*, 1Win4-52, 2025.
 
 **2024**
-- **今井悠人**, 是方諒介, 杉浦孔明: "Dense textを用いたマルチモーダルLLMに基づく大規模屋内環境における物体検索", *第42回日本ロボット学会学術講演会*, 2024
-- **今井悠人**, 兼田寛大, 是方諒介, 杉浦孔明: "マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン", *第38回人工知能学会全国大会*, 2024年5月
-- 是方諒介, 兼田寛大, 長嶋隼矢, **今井悠人**, 杉浦孔明: "大規模言語モデルを用いたSwitching機構付きマルチモーダル検索モデルに基づく生活支援ロボットによる物体操作", *第38回人工知能学会全国大会*, 2024
+- **Yuto Imai**, 是方諒介, 杉浦孔明: "Dense textを用いたマルチモーダルLLMに基づく大規模屋内環境における物体検索", *第42回日本ロボット学会学術講演会*, 2024
+- **Yuto Imai**, 兼田寛大, 是方諒介, 杉浦孔明: "マルチモーダル基盤モデルと緩和対照損失を用いた大規模屋内検索エンジン", *第38回人工知能学会全国大会*, 2024年5月
+- 是方諒介, 兼田寛大, 長嶋隼矢, **Yuto Imai**, 杉浦孔明: "大規模言語モデルを用いたSwitching機構付きマルチモーダル検索モデルに基づく生活支援ロボットによる物体操作", *第38回人工知能学会全国大会*, 2024
 
 **2023**
-- **今井悠人**, 飯岡雄偉, 畑中駿平, 九曜克之, 杉浦孔明: "マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション", *第41回日本ロボット学会学術講演会*, 2K1-06, 2023
+- **Yuto Imai**, 飯岡雄偉, 畑中駿平, 九曜克之, 杉浦孔明: "マルチモーダル基盤モデルと拡散モデルに基づく対象物体の参照表現セグメンテーション", *第41回日本ロボット学会学術講演会*, 2K1-06, 2023
 
 ### Poster Presentations
 
@@ -94,7 +94,7 @@ Hiyoshi, Yokohama City, Japan
   - Awarded to "DM2RM: Dual-Mode Multimodal Ranking for Target Objects and Receptacles Based on Open-Vocabulary Instructions" (co-author), *Advanced Robotics*, Vol. 39, Issue 5, 2025
 
 - **YANS2025 奨励賞**, *第20回言語処理若手シンポジウム*, 2025年9月
-  - 「マルチモーダル大規模言語モデルのための360度画像を対象としたVQAデータセットの構築」(今井悠人, 五十川麻理子) — 対象246件中24件選出
+  - 「マルチモーダル大規模言語モデルのための360度画像を対象としたVQAデータセットの構築」(Yuto Imai, Mariko Isogawa) — 対象246件中24件選出
 
 - **第5回優秀研究・技術賞**, *日本ロボット学会*, 2024年9月
   - Selected from 800+ research presentations for exceptional contribution in usefulness, originality, novelty, and technical excellence
@@ -146,6 +146,7 @@ Hiyoshi, Yokohama City, Japan
 ## Publications & Media
 
 ### Technical Blogs
+- [SB Intuitions Tech Blog: 国産LLM Sarashina3.2 mini thinking の紹介](https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000) (co-author)
 - [SB Intuitions Tech Blog: YANS2026 参加報告](https://www.sbintuitions.co.jp/blog/entry/2026/08/31/105922) (co-author)
 - [SB Intuitions Tech Blog: Sarashina2.2-Vision-3B コンパクトかつ性能が高いVLMの公開](https://www.sbintuitions.co.jp/blog/entry/2025/11/25/100000)
 - [SB Intuitions Tech Blog: Sarashina2-Vision-8B, 14Bの性能評価](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111703)
