@@ -21,7 +21,7 @@
 
 ## About
 
-Yuto Imai（今井悠人）の履歴書サイトです。SB Intuitions で日本語特化の視覚言語モデルの開発・評価に携わるリサーチエンジニアとしての経歴を紹介しています。
+Yuto Imaiの履歴書サイトです。SB Intuitions で日本語特化の視覚言語モデルの開発・評価に携わるリサーチエンジニアとしての経歴を紹介しています。
 
 **公開URL**: <https://yutojubako.github.io/maimai.github.io/>
 

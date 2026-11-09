@@ -146,6 +146,7 @@ Hiyoshi, Yokohama City, Japan
 ## Publications & Media
 
 ### Technical Blogs
+- [SB Intuitions Tech Blog: 国産LLM Sarashina3.2 mini thinking の紹介](https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000) (co-author)
 - [SB Intuitions Tech Blog: YANS2026 参加報告](https://www.sbintuitions.co.jp/blog/entry/2026/08/31/105922) (co-author)
 - [SB Intuitions Tech Blog: Sarashina2.2-Vision-3B コンパクトかつ性能が高いVLMの公開](https://www.sbintuitions.co.jp/blog/entry/2025/11/25/100000)
 - [SB Intuitions Tech Blog: Sarashina2-Vision-8B, 14Bの性能評価](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111703)
