@@ -1,3 +1,7 @@
+@import '@astryxdesign/core/reset.css';
+@import '@astryxdesign/core/astryx.css';
+@import '@astryxdesign/theme-neutral/theme.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -58,7 +62,9 @@
 	}
 	body {
 		@apply bg-background text-foreground;
-		font-feature-settings: 'liga' 1, 'kern' 1;
+		font-feature-settings:
+			'liga' 1,
+			'kern' 1;
 	}
 	/* Serif display headings, sans body — academic-journal feel */
 	h1,
@@ -70,4 +76,125 @@
 	a {
 		@apply underline-offset-4;
 	}
+}
+
+/* Bridge Astryx tokens to the existing Ivory & Ink palette. */
+[data-astryx-theme='neutral'] {
+	--font-family-body: Satoshi, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	--font-family-heading:
+		'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, 'Times New Roman',
+		serif;
+	--color-background-body: hsl(var(--background));
+	--color-background-surface: hsl(var(--background));
+	--color-background-card: hsl(var(--card));
+	--color-background-popover: hsl(var(--popover));
+	--color-background-muted: hsl(var(--muted));
+	--color-text-primary: hsl(var(--foreground));
+	--color-text-secondary: hsl(var(--muted-foreground));
+	--color-text-accent: hsl(var(--accent));
+	--color-accent: hsl(var(--accent));
+	--color-accent-muted: hsl(var(--muted));
+	--color-on-accent: hsl(var(--accent-foreground));
+	--color-icon-primary: hsl(var(--foreground));
+	--color-icon-secondary: hsl(var(--muted-foreground));
+	--color-icon-accent: hsl(var(--accent));
+	--color-border: hsl(var(--border));
+	--color-border-emphasized: hsl(var(--accent));
+	--color-shadow: hsl(var(--foreground) / 10%);
+	--radius-inner: 0;
+	--radius-element: 0;
+	--radius-container: 0;
+	--radius-page: 0;
+	--shadow-low: 0 0 transparent;
+	--shadow-med: 0 0 transparent;
+	--shadow-high: 0 0 transparent;
+}
+
+html:not(.dark) [data-astryx-theme] {
+	color-scheme: light;
+}
+
+html.dark [data-astryx-theme] {
+	color-scheme: dark;
+}
+
+.profile-hero {
+	border-bottom: 1px solid hsl(var(--border) / 70%);
+	box-shadow: none;
+}
+
+.profile-hero .astryx-heading {
+	font-size: 2.25rem;
+	font-weight: 600;
+	letter-spacing: -0.025em;
+}
+
+.profile-hero-role {
+	font-style: italic;
+}
+
+.profile-hero-link {
+	color: hsl(var(--muted-foreground));
+	font-family: var(--font-family-body);
+	font-size: 0.95rem;
+	font-weight: 400;
+	text-decoration: none;
+	transition: color 160ms ease;
+}
+
+.profile-hero-link:hover {
+	color: hsl(var(--accent));
+}
+
+.profile-hero-link:focus-visible {
+	outline: 2px solid hsl(var(--accent));
+	outline-offset: 4px;
+}
+
+.profile-hero-image {
+	width: 7rem;
+	height: 7rem;
+	border: 1px solid hsl(var(--border));
+	border-radius: 9999px;
+	background: hsl(var(--card));
+	object-fit: cover;
+	padding: 0.5rem;
+}
+
+.resume-card-link {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	width: 100%;
+}
+
+.resume-card {
+	border-bottom: 1px solid hsl(var(--border) / 70%);
+	box-shadow: none;
+	padding: 1.25rem 0;
+	transition: border-color 160ms ease;
+}
+
+.resume-card .astryx-heading {
+	font-size: 1.125rem;
+	font-weight: 500;
+	letter-spacing: -0.01em;
+	line-height: 1.375;
+}
+
+.resume-card-subheading {
+	font-style: italic;
+}
+
+.resume-card-link:hover .resume-card {
+	border-color: hsl(var(--accent) / 60%);
+}
+
+.resume-card-link:focus-visible {
+	outline: 2px solid hsl(var(--accent));
+	outline-offset: 4px;
+}
+
+.resume-card-content {
+	width: 100%;
 }
