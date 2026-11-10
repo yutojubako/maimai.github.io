@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config'
 import mdx from '@astrojs/mdx'
+import react from '@astrojs/react'
 import tailwind from '@astrojs/tailwind'
 import { remarkReadingTime } from './src/utils/remarkReadingTime.ts'
 import remarkUnwrapImages from 'remark-unwrap-images'
@@ -18,6 +19,7 @@ export default defineConfig({
 			applyBaseStyles: false
 		}),
 		mdx(),
+		react(),
 		icon()
 	],
 	markdown: {
