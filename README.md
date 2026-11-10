@@ -41,6 +41,8 @@ npm run dev
 ## 編集のポイント
 
 - 履歴書本体: `src/pages/index.astro`
+- ランディングヒーロー: `src/components/ProfileHero.tsx`
+- 履歴書カード: `src/components/ResumeCard.tsx`
 - サイト設定（タイトル・ナビゲーション）: `src/site.config.ts`
 - ファビコン: `public/favicon.svg`
 
@@ -51,6 +53,8 @@ npm run dev
 ## 技術スタック
 
 - [Astro](https://astro.build/) - 静的サイトジェネレーター
+- [React](https://react.dev/) - Astryx コンポーネントの実行
+- [Astryx](https://github.com/meta/astryx) - ヒーローと履歴書カードの UI コンポーネント
 - [astro-theme-resume](https://github.com/srleom/astro-theme-resume) ベースのカスタムテーマ（Ivory & Ink）
 - [Tailwind CSS](https://tailwindcss.com/) - スタイリング
 - [GitHub Pages](https://pages.github.com/) - ホスティング
