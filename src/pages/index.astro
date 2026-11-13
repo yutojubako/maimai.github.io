@@ -5,6 +5,7 @@ import Card from '../components/Card.astro'
 import SkillLayout from '../components/SkillLayout.astro'
 import { ProfileHero } from '../components/ProfileHero.tsx'
 import myicon from '../assets/myicon.png'
+import AgentTools from '../components/AgentTools.astro'
 
 const languages = ['Japanese (Native)', 'English (TOEIC 750)']
 const research = [
@@ -20,6 +21,7 @@ const tools = ['Git', 'Docker', 'Linux', 'Jupyter', 'MLflow', 'Weights & Biases'
 ---
 
 <PageLayout meta={{ title: 'Home' }}>
+	<AgentTools />
 	<div class='flex w-full flex-col gap-y-16'>
 		<ProfileHero imageSrc={myicon.src} />
 
