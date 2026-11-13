@@ -83,9 +83,15 @@ const socialImageURL = new URL(ogImage ? ogImage : `${baseURL}social-card.png`, 
 <meta content={socialImageURL} property='twitter:image' />
 
 {/* Sitemap */}
-<link href={`${baseURL}sitemap-index.xml`} rel='sitemap' />
+<link href={`${baseURL}sitemap.xml`} rel='sitemap' type='application/xml' />
 
-{/* RSS auto-discovery */}
-<link href={`${baseURL}rss.xml`} rel='alternate' title={siteConfig.title} type='application/rss+xml' />
+{/* Static discovery fallbacks; GitHub Pages cannot set Link response headers. */}
+<link href={`${baseURL}resume.md`} rel='alternate' title='Résumé (Markdown)' type='text/markdown' />
+<link
+	href={`${baseURL}.well-known/agent-skills/index.json`}
+	rel='describedby'
+	type='application/json'
+/>
+<link href={`${baseURL}.well-known/ai-catalog.json`} rel='ai-catalog' type='application/json' />
 
 <meta content={Astro.generator} name='generator' />

@@ -50,6 +50,56 @@ npm run dev
 
 `master` への push で GitHub Actions（[withastro/action](https://docs.astro.build/ja/recipes/deploy-github-pages/)）が自動ビルドし、GitHub Pages にデプロイされます。
 
+## Agent discovery (GitHub Pages)
+
+`npm run build` regenerates `sitemap.xml`, `robots.txt`, `resume.md`, the
+SHA-256-verified `.well-known/agent-skills/index.json`, and
+`.well-known/ai-catalog.json`. The sitemap includes generated public pages,
+excluding the 404 page and legacy redirect files. Edit `resume.md` alongside
+the HTML résumé so both representations stay current. Run `npm test` to check
+generation and base-path handling.
+
+The homepage advertises these resources through HTML links and offers an
+experimental, read-only `read_resume` WebMCP tool when the browser supports it.
+Unsupported browsers continue to work normally.
+
+### Crawl policy and origin-root requirements
+
+Policy: **search=yes, ai-input=yes, ai-train=no**. Search and user-triggered
+crawlers are allowed; named training crawlers are disallowed for this project.
+Content Signals are advisory extensions, not access controls.
+
+This deployment owns **`/maimai.github.io/`, not `/`** on
+`https://yutojubako.github.io`. Consequently:
+
+- `/maimai.github.io/robots.txt` is a policy copy, **not an effective robots.txt**.
+  The origin owner's `yutojubako.github.io` repository must merge its rules into
+  **`https://yutojubako.github.io/robots.txt`**. Preserve rules for other projects
+  and include `Sitemap: https://yutojubako.github.io/maimai.github.io/sitemap.xml`.
+  Merge the blog policy too, referencing `https://yutojubako.github.io/blog/sitemap.xml`.
+- The `.well-known` files are project-scoped HTML-linked fallbacks. Origin-root
+  discovery requires publishing or linking them from the origin owner's site.
+- GitHub Pages cannot configure HTTP `Link` headers or negotiate Markdown via
+  `Accept`. The explicit Markdown URL is a fallback, not content negotiation.
+  A controllable proxy could send `Link: </maimai.github.io/resume.md>;
+  rel="alternate"; type="text/markdown"`. Negotiation would also require
+  `Vary: Accept` and `Content-Type: text/markdown` for Markdown responses.
+- This repository cannot set the GitHub-owned domain's DNS/DNSSEC. DNS-AID
+  requires a controlled domain and a real agent service; no records are fabricated.
+- There are no APIs, OAuth issuers/protected resources, registration services,
+  or MCP servers. API catalogs, OAuth discovery, auth.md, and MCP server cards
+  are intentionally absent rather than advertising nonexistent capabilities.
+- The ARD manifest is experimental and project-scoped. GitHub Pages controls
+  response headers; its required CORS header must be checked after deployment.
+
+After publishing, check status and MIME types with `curl -i` for the project
+`robots.txt` (`text/plain`), `sitemap.xml` (XML), `resume.md`, and both discovery
+JSON files (`application/json`). Static endpoint Response headers do not
+configure GitHub Pages headers. A local preview is not proof of production
+headers. Verify the origin-root robots.txt separately; root-based scanners may
+continue to fail until the origin owner publishes it. No deployment or DNS
+change is performed by this implementation.
+
 ## 技術スタック
 
 - [Astro](https://astro.build/) - 静的サイトジェネレーター
